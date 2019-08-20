@@ -58,6 +58,47 @@ module.exports = {
           ]
         }
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/home/**/*.md",
+        typeName: "home",
+        resolveAbsolutePaths: true,
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/formations/**/*.md",
+        typeName: "formations",
+        resolveAbsolutePaths: true,
+        route: "/formations/:type/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/conference-midi/**/*.md",
+        typeName: "conferences",
+        resolveAbsolutePaths: true,
+        route: "/conferences-midi/:type/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ]
+        }
+      }
     }
   ],
   chainWebpack: config => {
