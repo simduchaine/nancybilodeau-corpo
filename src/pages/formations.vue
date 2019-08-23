@@ -38,6 +38,7 @@ query Formations {
         content
         path
         link
+        thumbnail
       }
     }
   }

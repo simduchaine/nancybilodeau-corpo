@@ -5,7 +5,7 @@
         <h1 class="title">Conférence-Midi</h1>
         <div style="margin-bottom:2rem;">
           Investir dans les connaissances de ses employés est un des meilleurs leviers de performance de l’entreprise. Plus les employés seront en santé et bien placés dans leur rôle, plus ils pourront contribuer au bon développement de l’entreprise.
-          J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins. Les thèmes les plus populaires sont:
+          J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins.
         </div>
         <div class="columns is-multiline">
           <div
@@ -39,6 +39,7 @@ query Conferences {
         content
         path
         link
+        thumbnail
       }
     }
   }

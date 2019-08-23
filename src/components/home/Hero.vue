@@ -51,8 +51,8 @@ export default {
 
   &.is-medium {
     .hero-body {
-      padding-bottom: 6rem;
-      padding-top: 6rem;
+      padding-bottom: 4rem;
+      padding-top: 4rem;
     }
   }
 

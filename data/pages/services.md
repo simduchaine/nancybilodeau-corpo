@@ -1,6 +1,7 @@
 ---
 id: services
 title: Services
+thumbnail: "/uploads/nordwood-themes-kRNZiGKtz48-unsplash.jpg"
 ---
 
 Mes spécialités d’affaires sont :
@@ -19,3 +20,5 @@ Enfin, mes dernières années dans le monde de la santé holistique me permetten
 - Accompagnement (coaching) individuel
 - Accompagnement (coaching) d’équipe de direction
 - Gestion du stress en entreprise
+
+[Prendre rendez-vous >](/contact)

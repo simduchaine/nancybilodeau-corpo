@@ -3,22 +3,27 @@
     <section id="lead" class="has-background-info lead-content">
       <lead></lead>
     </section>
+    <section id="call-to-action">
+      <call-action></call-action>
+    </section>
     <section id="main">
-      <main-content></main-content>
+      <main-content class="has-background-info lead-content" style="margin-top: -10px"></main-content>
     </section>
   </home-layout>
 </template>
 
 <script>
 import lead from "~/components/home/Lead.vue";
+import callAction from "~/components/home/call-to-action.vue";
 import mainContent from "~/components/home/Main.vue";
 
 export default {
   metaInfo: {
-    title: "Coaching pour entreprises"
+    title: "Accueil"
   },
   components: {
     lead,
+    callAction,
     mainContent
   }
 };

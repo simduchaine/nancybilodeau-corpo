@@ -1,6 +1,6 @@
 ---
 title: Gestion de programme
 id: gestion-programme
-thumbnail: ""
+thumbnail: "/uploads/bruno-nascimento-PHIgYUGQPvU-unsplash.jpg"
 link: "#"
 ---

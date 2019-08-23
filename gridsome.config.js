@@ -20,7 +20,7 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: "Nancy Bilodeau - Coaching Corpo",
+  siteName: "Nancy Bilodeau - Consultante holistique pour entreprises",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",

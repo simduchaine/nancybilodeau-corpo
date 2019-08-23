@@ -1,6 +1,6 @@
 ---
 title: Smoothies et super-aliments
 id: smoothies
-thumbnail: ""
+thumbnail: "/uploads/smoothie.jpg"
 link: "#"
 ---
