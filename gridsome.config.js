@@ -21,7 +21,7 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: "Nancy Bilodeau - Consultante holistique pour entreprises",
-  host: "0.0.0.0"
+  host: "0.0.0.0",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
