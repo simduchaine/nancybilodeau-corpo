@@ -16,11 +16,15 @@ sections:
   label: Formations
   create: all
   match: "**/*"
+  templates:
+  - formations
 - type: directory
   path: data/conference-midi
   label: Conférence-Midi
   create: all
   match: "**/*"
+  templates:
+  - formations
 - type: directory
   path: data/bio
   label: Bio
