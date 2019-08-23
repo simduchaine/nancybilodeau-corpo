@@ -68,7 +68,7 @@ export default {
 }
 
 .typing {
-  color: #3b3049;
+  color: #c4e0ec; //#3b3049
 }
 </style>
 
