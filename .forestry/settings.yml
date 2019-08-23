@@ -4,13 +4,28 @@ auto_deploy: false
 admin_path: "/static/admin/"
 webhook_url: 
 sections:
+- type: heading
+  label: Français
 - type: directory
   path: data/home
   label: Accueil
   create: all
   match: "**/*"
-- type: heading
-  label: Français
+- type: directory
+  path: data/formations
+  label: Formations
+  create: all
+  match: "**/*"
+- type: directory
+  path: data/conference-midi
+  label: Conférence-Midi
+  create: all
+  match: "**/*"
+- type: directory
+  path: data/bio
+  label: Bio
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
