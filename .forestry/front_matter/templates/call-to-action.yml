@@ -1,0 +1,10 @@
+---
+label: call-to-action
+hide_body: false
+fields:
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: title
+  label: title
