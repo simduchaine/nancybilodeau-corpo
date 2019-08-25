@@ -1,0 +1,17 @@
+---
+label: bio
+hide_body: false
+fields:
+- type: text
+  name: id
+  label: id
+  hidden: false
+- type: text
+  name: title
+  label: Titre
+- type: file
+  name: thumbnail
+  label: Image
+- type: file
+  name: cv_link
+  label: CV à télécharger
