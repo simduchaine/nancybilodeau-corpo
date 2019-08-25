@@ -5,12 +5,13 @@ fields:
 - type: text
   name: id
   label: id
+  hidden: false
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: file
   name: thumbnail
-  label: thumbnail
+  label: Image
 - type: file
   name: cv_link
-  label: cv_link
+  label: CV à télécharger
