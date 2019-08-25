@@ -1,38 +1,48 @@
 <template>
   <Layout>
-    <div v-for="edge in $page.allbio.edges" :key="edge.node.id">
-      <section class="offset-bg-blue section">
-        <div class="container bio">
-          <h1 class="title">{{ edge.node.title }}</h1>
-          <g-image class="image is-right" :src="edge.node.thumbnail"></g-image>
-          <div v-html="edge.node.content"></div>
+    <section class="offset-bg-blue section">
+      <bio></bio>
+    </section>
+    <section class="section container">
+      <div class="columns">
+        <formations></formations>
+        <emplois></emplois>
+      </div>
+    </section>
+    <section class="section has-background-info">
+      <div class="container">
+        <div class="columns">
+          <conferences></conferences>
+          <articles></articles>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section class="section">
+      <realisations></realisations>
+    </section>
   </Layout>
 </template>
 
-<page-query>
-query allBio {
-  allbio {
-    edges {
-      node {
-        id
-        title
-        content
-        thumbnail (quality: 90, height: 800, width: 700)
-      }
-    }
-  }
-}
-</page-query>
-
 <script>
+import bio from "~/components/bio/bio";
+import emplois from "~/components/bio/emplois";
+import formations from "~/components/bio/formations";
+import conferences from "~/components/bio/conferences";
+import realisations from "~/components/bio/realisations";
+import articles from "~/components/bio/articles";
+
 export default {
   metaInfo: {
     title: "À Propos"
   },
-  components: {}
+  components: {
+    bio,
+    emplois,
+    formations,
+    conferences,
+    realisations,
+    articles
+  }
 };
 </script>
 
