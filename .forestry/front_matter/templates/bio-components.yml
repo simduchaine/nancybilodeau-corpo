@@ -10,5 +10,6 @@ fields:
   name: title
   label: Titre de section
 pages:
+- data/bio/formations.md
 - data/bio/realisations.md
 - data/bio/articles.md

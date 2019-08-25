@@ -1,8 +1,8 @@
 ---
 id: formations
 title: Formations
----
 
+---
 Formations d’affaires additionnelles :
 
 - Communication, Institut de design, Chicago
