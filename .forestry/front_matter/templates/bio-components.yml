@@ -7,4 +7,4 @@ fields:
   label: id
 - type: text
   name: title
-  label: title
+  label: Titre de section
