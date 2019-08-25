@@ -21,4 +21,4 @@ Enfin, mes dernières années dans le monde de la santé holistique me permetten
 - Accompagnement (coaching) d’équipe de direction
 - Gestion du stress en entreprise
 
-[Prendre rendez-vous >](/contact)
+[Prendre rendez-vous >](https://www.gorendezvous.com/homepage/111690)

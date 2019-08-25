@@ -9,6 +9,9 @@
     <section id="main">
       <main-content class="has-background-info lead-content" style="margin-top: -10px"></main-content>
     </section>
+    <section id="consultation">
+      <consultation></consultation>
+    </section>
   </home-layout>
 </template>
 
@@ -16,6 +19,7 @@
 import lead from "~/components/home/Lead.vue";
 import callAction from "~/components/home/call-to-action.vue";
 import mainContent from "~/components/home/Main.vue";
+import consultation from "~/components/home/consultation.vue";
 
 export default {
   metaInfo: {
@@ -24,7 +28,8 @@ export default {
   components: {
     lead,
     callAction,
-    mainContent
+    mainContent,
+    consultation
   }
 };
 </script>
