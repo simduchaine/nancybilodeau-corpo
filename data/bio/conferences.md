@@ -1,8 +1,8 @@
 ---
 id: conferences
 title: Conférences
----
 
+---
 Lors de mon passage aux États-Unis, j’étais très active dans le domaine des affaires comme conférencière :
 
 - Ancient Wisdom in BPM – Yoga thinking applied to BPM: ABPMP, octobre 2012
