@@ -9,3 +9,5 @@ fields:
 - type: text
   name: title
   label: Titre de section
+pages:
+- data/bio/articles.md
