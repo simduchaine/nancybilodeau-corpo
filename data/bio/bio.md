@@ -3,8 +3,8 @@ id: bio
 title: À propos de moi
 thumbnail: "/uploads/Nancy-corpo.jpg"
 cv_link: "/uploads/Bilodeau_Nancy_CV_Court.pdf"
----
 
+---
 Je suis une gestionnaire de plus de 25 ans d’expérience en transformation organisationnelle, gestion de projets, de programmes, de portefeuilles et amélioration des processus. Dynamique, visionnaire et humaine, j’ai la capacité de gérer des situations complexes et de développer des équipes performantes qui livrent des résultats durables.
 
 Née au Québec, je suis détentrice d’un baccalauréat en affaire de [l’Université de Sherbrooke](https://www.usherbrooke.ca/) et d’un MBA de [Keller Graduate School](https://www.keller.edu/) of Management des États-Unis. J’ai vécu 12 ans aux États-Unis et ai travaillé dans plusieurs industries, tant pour des grandes, des moyennes que des petites entreprises.
