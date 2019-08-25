@@ -11,6 +11,10 @@ sections:
   label: Accueil
   create: all
   match: "**/*"
+- type: document
+  path: data/pages/services
+  label: Services
+  match: "**/*"
 - type: directory
   path: data/formations
   label: Formations
