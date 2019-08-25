@@ -2,8 +2,8 @@
 id: services
 title: Services
 thumbnail: "/uploads/nordwood-themes-kRNZiGKtz48-unsplash.jpg"
----
 
+---
 Mes spécialités d’affaires sont :
 
 - La gestion de projet et le redressement de projets en difficulté

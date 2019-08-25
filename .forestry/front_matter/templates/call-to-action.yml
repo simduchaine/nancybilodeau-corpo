@@ -9,4 +9,5 @@ fields:
   name: thumbnail
   label: Image
 pages:
+- data/pages/services.md
 - data/home/call-to-action.md
