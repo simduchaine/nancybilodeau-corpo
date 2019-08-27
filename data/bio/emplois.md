@@ -10,7 +10,7 @@ compagnies:
   logo: ''
 - title: CP Rail, Canada
   logo: ''
-- title: Abbott
+- title: Abbott, Canada
   logo: ''
 - title: A&G Consulting, Canada
   logo: ''
