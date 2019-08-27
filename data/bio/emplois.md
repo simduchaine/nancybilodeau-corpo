@@ -1,12 +1,12 @@
 ---
 id: emplois
-title: Clients \ Employeurs
+title: Clients & Employeurs
 compagnies:
 - title: Royal Trust, Canada
   logo: ''
 - title: PricewaterhouseCoopers, Canada
   logo: ''
-- title: Téléglobe
+- title: Téléglobe, Canada
   logo: ''
 - title: CP Rail
   logo: ''
