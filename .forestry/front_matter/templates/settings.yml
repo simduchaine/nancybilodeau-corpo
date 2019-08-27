@@ -1,0 +1,7 @@
+---
+label: Settings
+hide_body: true
+fields:
+- type: file
+  name: hero_image
+  label: hero_image

@@ -9,7 +9,6 @@ sections:
 - type: document
   path: data/site.yaml
   label: Options du site
-  match: "**/*"
 - type: heading
   label: Français
 - type: directory
