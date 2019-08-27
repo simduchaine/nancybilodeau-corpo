@@ -1,6 +1,6 @@
 ---
 id: emplois
-title: Emplois
+title: Clients \ Employeurs
 compagnies:
 - title: Royal Trust, Canada
   logo: ''
