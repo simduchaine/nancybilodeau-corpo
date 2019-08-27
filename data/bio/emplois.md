@@ -8,7 +8,7 @@ compagnies:
   logo: ''
 - title: Téléglobe, Canada
   logo: ''
-- title: CP Rail
+- title: CP Rail, Canada
   logo: ''
 - title: Abbott
   logo: ''
