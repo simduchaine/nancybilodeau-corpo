@@ -5,6 +5,12 @@ admin_path: "/static/admin/"
 webhook_url: 
 sections:
 - type: heading
+  label: Général
+- type: document
+  path: data/site.yaml
+  label: Options du site
+  match: "**/*"
+- type: heading
   label: Français
 - type: directory
   path: data/home
