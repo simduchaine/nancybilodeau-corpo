@@ -1,8 +1,8 @@
 ---
 id: realisations
 title: Réalisations
----
 
+---
 Je compte parmi mes belles réalisations :
 
 - La création, la gestion et la vente du Centre Holistique OM Prana en trois ans. La compagnie a démontré une croissance impressionnante pour déployer le premier restaurant d’alimentation vivante dans la ville de Québec avec un État des résultats positif dès la première année.

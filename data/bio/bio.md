@@ -1,15 +1,15 @@
 ---
 id: bio
 title: À propos de moi
-thumbnail: "/uploads/Nancy-corpo.jpg"
+thumbnail: "/uploads/_MG_1903-3.jpg"
 cv_link: "/uploads/Bilodeau_Nancy_CV_Court.pdf"
----
 
+---
 Je suis une gestionnaire de plus de 25 ans d’expérience en transformation organisationnelle, gestion de projets, de programmes, de portefeuilles et amélioration des processus. Dynamique, visionnaire et humaine, j’ai la capacité de gérer des situations complexes et de développer des équipes performantes qui livrent des résultats durables.
 
 Née au Québec, je suis détentrice d’un baccalauréat en affaire de [l’Université de Sherbrooke](https://www.usherbrooke.ca/) et d’un MBA de [Keller Graduate School](https://www.keller.edu/) of Management des États-Unis. J’ai vécu 12 ans aux États-Unis et ai travaillé dans plusieurs industries, tant pour des grandes, des moyennes que des petites entreprises.
 
-De retour au Québec en 2013, j’effectue un virage sur le plan professionnel et choisis de mettre toute mon énergie au service de la santé. Après plusieurs années dans le milieu au sien de diverses entreprises, j’ai développé une bonne compréhension du stress, de la gestion du stress ainsi que des dommages que celui-ci peut occasionner sur le plan de l’énergie et de la santé des gens qui manquent d’outils ou de moyens pour y faire face. Pour plus d’information sur mon virage santé et ma formation holistique, cliquez ici (aller à Rencontrez Nancy sur la page individu)
+De retour au Québec en 2013, j’effectue un virage sur le plan professionnel et choisis de mettre toute mon énergie au service de la santé. Après plusieurs années dans le milieu au sain de diverses entreprises, j’ai développé une bonne compréhension du stress, de la gestion du stress ainsi que des dommages que celui-ci peut occasionner sur le plan de l’énergie et de la santé des gens qui manquent d’outils ou de moyens pour y faire face. Pour plus d’information sur mon virage santé et ma formation holistique, cliquez ici (aller à Rencontrez Nancy sur la page individu)
 
 Après avoir fondé, géré et vendu mon entreprise, j’ai fait un retour auprès des entreprises en souhaitant y intégrer mes apprentissages de la santé globale, du yoga et de la méditation. Impressionnée par les résultats obtenus et passionnée par le mieux-être des gens au travail, je me lance à nouveau en affaires pour vous offrir des services de consultation unique. Mon approche intègre mes 25 années d’expérience d’affaires et une richesse de connaissance et de sagesse acquises dans le monde du mieux-être.
 

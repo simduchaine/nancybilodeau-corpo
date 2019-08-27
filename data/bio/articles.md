@@ -1,8 +1,8 @@
 ---
 id: articles
 title: Articles
----
 
+---
 Articles publiés :
 
 - Process Ownership and Governance; paradigm shift, BPM Institute, avril 2009

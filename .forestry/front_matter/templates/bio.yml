@@ -5,7 +5,7 @@ fields:
 - type: text
   name: id
   label: id
-  hidden: false
+  hidden: true
 - type: text
   name: title
   label: Titre
@@ -15,3 +15,5 @@ fields:
 - type: file
   name: cv_link
   label: CV à télécharger
+pages:
+- data/bio/bio.md

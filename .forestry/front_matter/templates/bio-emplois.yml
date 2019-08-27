@@ -1,0 +1,25 @@
+---
+label: bio - emplois
+hide_body: false
+fields:
+- type: text
+  name: id
+  label: id
+  hidden: true
+- type: text
+  name: title
+  label: Titre de la section
+- type: field_group_list
+  name: compagnies
+  label: Compagnies
+  fields:
+  - type: text
+    name: title
+    label: Nom de la compagnie
+  - name: logo
+    type: file
+    config:
+      maxSize: 250
+    label: Logo
+pages:
+- data/bio/emplois.md

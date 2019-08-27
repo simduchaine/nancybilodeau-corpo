@@ -1,0 +1,16 @@
+---
+label: Bio Components
+hide_body: false
+fields:
+- type: text
+  name: id
+  label: id
+  hidden: true
+- type: text
+  name: title
+  label: Titre de section
+pages:
+- data/bio/formations.md
+- data/bio/conferences.md
+- data/bio/realisations.md
+- data/bio/articles.md
