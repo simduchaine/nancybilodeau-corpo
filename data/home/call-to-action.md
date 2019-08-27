@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/free-freedom-gratitude-6945.jpg"
+thumbnail: "/uploads/architectural-design-architecture-blue-302831.jpg"
 title: Trouver l'équilibre pour une performance optimale &#128578;
 
 ---
