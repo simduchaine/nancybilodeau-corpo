@@ -1,7 +1,7 @@
 ---
 id: services
 title: Services
-thumbnail: "/uploads/nordwood-themes-kRNZiGKtz48-unsplash.jpg"
+thumbnail: "/uploads/Capture d’écran 2019-08-27 à 12.05.04.png"
 
 ---
 Mes spécialités d’affaires sont :
