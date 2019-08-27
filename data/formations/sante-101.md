@@ -1,6 +1,7 @@
 ---
-title: Santé 101
+title: Gestion des Processus
 id: sante-101
-thumbnail: "/uploads/olia-nayda-3TQ8I-sR9a8-unsplash.jpg"
+thumbnail: "/uploads/AdobeStock_247497736.jpeg"
 link: "#"
+
 ---
