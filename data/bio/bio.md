@@ -1,7 +1,7 @@
 ---
 id: bio
 title: À propos de moi
-thumbnail: "/uploads/Nancy-corpo.jpg"
+thumbnail: "/uploads/_MG_1903-3.jpg"
 cv_link: "/uploads/Bilodeau_Nancy_CV_Court.pdf"
 
 ---
