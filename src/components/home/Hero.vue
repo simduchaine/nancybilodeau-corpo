@@ -1,6 +1,6 @@
 <template>
   <section class="hero is-primary is-medium has-background">
-    <g-image class="hero-background is-transparent" src="../../assets/img/hero-corpo.jpg" />
+    <g-image class="hero-background is-transparent" :src="$static.HeroImg.hero_image" />
     <div class="hero-body">
       <div class="container">
         <vue-typed-js
@@ -23,6 +23,14 @@
     </div>
   </section>
 </template>
+
+<static-query>
+query HeroImg {
+  HeroImg: settings(path: "/data/site") {
+    hero_image (width: 1920, height: 1080)
+  }
+}
+</static-query>
 
 <script>
 export default {

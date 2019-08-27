@@ -21,7 +21,7 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: "Nancy Bilodeau - Consultante holistique pour entreprises",
-  host: "0.0.0.0",
+  //host: "0.0.0.0",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -94,6 +94,19 @@ module.exports = {
         typeName: "conferences",
         resolveAbsolutePaths: true,
         route: "/conferences-midi/:type/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/site.yaml",
+        typeName: "settings",
+        resolveAbsolutePaths: true,
         remark: {
           plugins: [
             //require("remark-attr")
