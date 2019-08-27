@@ -24,4 +24,4 @@ Formations d’affaires additionnelles :
 * Coût de revient pour les restaurants
 * Cours de la MAPAC
 
-Visitez ma biographie pour le coaching individuel pour ma formation dans le milieu de la santé holistique.
+Visitez ma biographie pour le coaching individuel pour en savoir plus sur ma formation dans le milieu de la santé holistique.
