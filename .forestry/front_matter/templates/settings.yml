@@ -4,4 +4,5 @@ hide_body: true
 fields:
 - type: file
   name: hero_image
-  label: hero_image
+  label: Image principale sur l'accueil
+  default: "/uploads/hero-corpo.jpg"
