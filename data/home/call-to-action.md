@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+thumbnail: "/uploads/free-freedom-gratitude-6945.jpg"
 title: Trouver l'équilibre pour une performance optimale &#128578;
 
 ---
