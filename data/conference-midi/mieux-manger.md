@@ -1,7 +1,7 @@
 ---
 title: Manger pour performer
 id: mieux-manger
-thumbnail: "/uploads/appetizer-bowls-breakfast-1640770.jpg"
+thumbnail: "/uploads/Capture d’écran 2019-08-28 à 10.38.49.png"
 link: "#"
 
 ---
