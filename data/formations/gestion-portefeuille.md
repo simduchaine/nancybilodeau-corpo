@@ -1,7 +1,7 @@
 ---
 title: Gestion de portefeuille
 id: gestion-portefeuille
-thumbnail: "/uploads/adult-analysis-chart-1516704.jpg"
+thumbnail: "/uploads/bigstock-Big-Data-Technology-For-Busine-305808415.jpg"
 link: "#"
 
 ---
