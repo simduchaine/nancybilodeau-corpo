@@ -66,7 +66,8 @@ a {
 ul {
   li {
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 1em;
   }
 }
 

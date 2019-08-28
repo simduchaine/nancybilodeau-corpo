@@ -22,7 +22,7 @@
 
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
-            <g-link class="navbar-item" to="/services">Services</g-link>
+            <g-link class="navbar-item" to="/services">Services Conseils</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
             <g-link class="navbar-item" to="/conference-midi">Conférence-Midi</g-link>
             <g-link class="navbar-item" to="/a-propos">Bio</g-link>
@@ -49,13 +49,13 @@
     <div id="siteWidget">
       <div>
         <a href="https://nancybilodeau.netlify.com/">
-          Moi
+          Pour moi
           <span>Perso</span>
         </a>
       </div>
-      <div>
+      <div class="active">
         <a href="https://corpo-nancybilodeau.netlify.com">
-          Ma compagnie
+          Pour ma compagnie
           <span>Corpo</span>
         </a>
       </div>
@@ -101,11 +101,18 @@ export default {
 <style lang="scss">
 #siteWidget {
   position: fixed;
-  top: 6rem;
-  left: -142px;
+  top: 4rem;
+  left: -180px;
   background: white;
   z-index: 1;
   transition: left 0.5s;
+  box-shadow: #8080802e 3px 2px 4px 0px;
+  .active {
+    background: #d05208;
+    a {
+      color: white;
+    }
+  }
   a {
     display: flex;
     justify-content: space-between;
@@ -115,9 +122,6 @@ export default {
   }
   &:hover {
     left: 0;
-  }
-  div:first-child {
-    border-bottom: 1px solid gray;
   }
   div {
     padding: 0.5rem 0.8rem;
