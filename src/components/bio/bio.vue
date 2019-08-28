@@ -13,7 +13,7 @@ query {
     id
     title
     content
-    thumbnail (quality: 90, height: 800, width: 700)
+    thumbnail (quality: 90, width: 700)
     cv_link
   }
 }

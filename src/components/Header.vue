@@ -103,10 +103,8 @@ export default {
   position: fixed;
   top: 4rem;
   left: -180px;
-  background: white;
   z-index: 1;
   transition: left 0.5s;
-  box-shadow: #8080802e 3px 2px 4px 0px;
   .active {
     background: #d05208;
     a {
@@ -124,7 +122,11 @@ export default {
     left: 0;
   }
   div {
-    padding: 0.5rem 0.8rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 15px;
+    background: white;
+    margin-bottom: 5px;
+    border: #d05208 1px solid;
   }
 }
 </style>

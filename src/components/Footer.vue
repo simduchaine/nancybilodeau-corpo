@@ -6,14 +6,12 @@
           <g-image src="~/assets/img/nancy-bilodeau-logo-white.svg" />
         </div>
         <div class="column"></div>
-        <div class="column is-narrow">
-          <a href="http://eepurl.com/gpZ2jv" class="button">S'inscrire à l'infolettre</a>
-        </div>
       </div>
       <div class="columns">
-        <div class="column is-one-quarter is-size-7">©Nancy Bilodeau 2019. Tous droits réservés.</div>
-        <div class="column"></div>
-        <!-- <div class="column is-narrow is-size-7">Termes & Conditions Confidentialité Cookies</div> -->
+        <div class="column is-size-7">©Nancy Bilodeau 2019. Tous droits réservés.</div>
+        <div class="column">
+          <a href="http://eepurl.com/gpZ2jv" class="button">S'inscrire à l'infolettre</a>
+        </div>
         <div class="column is-narrow brands">
           <a href="https://www.facebook.com/NancyBilodeauCoaching/">
             <font-awesome class="icons" :icon="['fab', 'facebook-f']" size="md" />
@@ -58,7 +56,9 @@ footer {
       background: white;
     }
   }
-
+  .column {
+    align-self: flex-end;
+  }
   .icons {
     margin: 0 0.5rem;
   }
