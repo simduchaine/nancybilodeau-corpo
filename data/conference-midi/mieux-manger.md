@@ -1,7 +1,7 @@
 ---
 title: Manger pour performer
 id: mieux-manger
-thumbnail: "/uploads/Capture d’écran 2019-08-28 à 10.38.49.png"
+thumbnail: "/uploads/bigstock-Diet-Woman-Measuring-Body-Wei-277120180.jpg"
 link: "#"
 
 ---
