@@ -1,6 +1,7 @@
 ---
 title: Gestion de portefeuille
 id: gestion-portefeuille
-thumbnail: "/uploads/markus-spiske-5gGcn2PRrtc-unsplash.jpg"
+thumbnail: "/uploads/bigstock-Big-Data-Technology-For-Busine-305808415.jpg"
 link: "#"
+
 ---

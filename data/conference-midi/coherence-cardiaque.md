@@ -1,6 +1,8 @@
 ---
-title: Cohérence cardiaque pour prendre de meilleures décisions
+title: Cohérence cardiaque
 id: coherence-cardiaque
-thumbnail: "/uploads/sharon-mccutcheon--iaHr12PVQg-unsplash.jpg"
+thumbnail: "/uploads/AdobeStock_187993797.jpeg"
 link: "#"
+
 ---
+Pour pendre de meilleures décisions, améliorer la productivité, les communications et le travail d'équipe.

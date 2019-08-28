@@ -1,6 +1,7 @@
 ---
 title: Gestion du changement
 id: gestion-changement
-thumbnail: "/uploads/you-x-ventures-6awfTPLGaCE-unsplash.jpg"
+thumbnail: "/uploads/AdobeStock_155559301.jpeg"
 link: "#"
+
 ---
