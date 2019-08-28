@@ -12,6 +12,9 @@
     <section id="consultation">
       <consultation></consultation>
     </section>
+    <section id="mission-vision" class="section has-background-info">
+      <mission-vision></mission-vision>
+    </section>
   </home-layout>
 </template>
 
@@ -20,6 +23,7 @@ import lead from "~/components/home/Lead.vue";
 import callAction from "~/components/home/call-to-action.vue";
 import mainContent from "~/components/home/Main.vue";
 import consultation from "~/components/home/consultation.vue";
+import missionVision from "~/components/home/mission-vision.vue";
 
 export default {
   metaInfo: {
@@ -29,7 +33,8 @@ export default {
     lead,
     callAction,
     mainContent,
-    consultation
+    consultation,
+    missionVision
   }
 };
 </script>

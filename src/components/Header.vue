@@ -22,7 +22,7 @@
 
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
-            <g-link class="navbar-item" to="/services">Services Conseils</g-link>
+            <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
             <g-link class="navbar-item" to="/conference-midi">Conférence-Midi</g-link>
             <g-link class="navbar-item" to="/a-propos">Bio</g-link>

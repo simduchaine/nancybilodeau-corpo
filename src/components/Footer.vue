@@ -3,48 +3,11 @@
     <div class="container is-fluid">
       <div class="columns">
         <div class="column is-narrow">
-          <g-image src="~/assets/img/nancy-bilodeau-logo.svg" />
+          <g-image src="~/assets/img/nancy-bilodeau-logo-white.svg" />
         </div>
-        <div class="column is-half"></div>
-        <div class="column is-one-third">
-          <!-- Begin Mailchimp Signup Form -->
-          <form
-            action="https://nancybilodeau.us20.list-manage.com/subscribe/post?u=23c00cdf65b51791bb6e5bda3&amp;id=16ac9ef9aa"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div class="mc-field-group">
-              <label for="EMAIL">S'inscrire à l'infolettre</label>
-              <input
-                type="email"
-                value
-                name="EMAIL"
-                class="required email input"
-                id="mce-EMAIL"
-                placeholder="Adresse Courriel"
-              />
-              <input
-                type="submit"
-                value="Soumettre"
-                name="subscribe"
-                id="mc-embedded-subscribe"
-                class="button"
-              />
-            </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_23c00cdf65b51791bb6e5bda3_16ac9ef9aa" tabindex="-1" value />
-            </div>
-          </form>
-          <!--End mc_embed_signup-->
+        <div class="column"></div>
+        <div class="column is-narrow">
+          <a href="http://eepurl.com/gpZ2jv" class="button">S'inscrire à l'infolettre</a>
         </div>
       </div>
       <div class="columns">
@@ -74,19 +37,15 @@ export default {
 </script>
 
 <style lang="scss">
-/* footer .columns:not(:last-child) {
-  padding-bottom: 2rem;
-} */
-
-.icons {
-  margin: 0 0.5rem;
-}
-
-#mc-embedded-subscribe-form {
-  input {
-    display: inline-block;
-    max-width: 77%;
-    margin-bottom: 1rem;
+footer {
+  color: white;
+  .brands {
+    a {
+      color: white;
+      &:hover {
+        color: #d05208;
+      }
+    }
   }
   .button {
     margin: 0 0.4rem 0;
@@ -95,9 +54,13 @@ export default {
     color: white;
     border: none;
     &:hover {
-      color: white;
-      background: #3b3049;
+      color: #3b3049;
+      background: white;
     }
+  }
+
+  .icons {
+    margin: 0 0.5rem;
   }
 }
 </style>
