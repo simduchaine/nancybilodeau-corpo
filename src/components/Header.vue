@@ -48,13 +48,13 @@
     </nav>
     <div id="siteWidget">
       <div>
-        <a href="https://nancybilodeau.netlify.com/">
+        <a href="https://nancybilodeau.com/">
           Pour moi
           <span>Perso</span>
         </a>
       </div>
       <div class="active">
-        <a href="https://corpo-nancybilodeau.netlify.com">
+        <a href="https://corpo.nancybilodeau.com">
           Pour ma compagnie
           <span>Corpo</span>
         </a>
