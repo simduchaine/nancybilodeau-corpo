@@ -2,10 +2,10 @@
   <Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Conférence-Midi</h1>
+        <h1 class="title">Conferences</h1>
         <div style="margin-bottom:2rem;">
-          Investir dans les connaissances de ses employés est un des meilleurs leviers de performance de l’entreprise. Plus les employés seront en santé et bien placés dans leur rôle, plus ils pourront contribuer au bon développement de l’entreprise.
-          J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins.
+          Investing in employees’knowledge is one of the most powerful levers for a company's performance. The healthier and proper role fit, the more your employee will be able to contribute to the success of your company.
+          Nancy has several midi conferences developed and can customize them to your needs.
         </div>
         <div class="columns is-multiline">
           <div
