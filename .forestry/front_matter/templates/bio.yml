@@ -16,4 +16,5 @@ fields:
   name: cv_link
   label: CV à télécharger
 pages:
+- data_en/bio/bio.md
 - data/bio/bio.md
