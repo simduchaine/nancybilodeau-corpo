@@ -53,11 +53,15 @@ sections:
   label: Training
   create: all
   match: "**/*"
+  templates:
+  - formations
 - type: directory
   path: data_en/conference
   label: Conferences
   create: all
   match: "**/*"
+  templates:
+  - formations
 - type: directory
   path: data_en/bio
   label: Bio
