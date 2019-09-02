@@ -1,6 +1,6 @@
 ---
 id: articles
-title: Published Articles
+title: Articles
 ---
 
 Published Articles :
