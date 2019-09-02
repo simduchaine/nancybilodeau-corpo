@@ -9,6 +9,7 @@ fields:
   name: thumbnail
   label: Image
 pages:
+- data_en/home/call-to-action.md
 - data_en/pages/services.md
 - data/home/call-to-action.md
 - data/pages/services.md
