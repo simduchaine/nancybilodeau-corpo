@@ -38,6 +38,32 @@ sections:
   label: Bio
   create: all
   match: "**/*"
+- type: heading
+  label: Anglais
+- type: directory
+  path: data_en/home
+  label: Home
+  create: all
+  match: "**/*"
+- type: document
+  path: data_en/pages/services.md
+  label: Services
+  match: "**/*"
+- type: directory
+  path: data_en/training
+  label: Training
+  create: all
+  match: "**/*"
+- type: directory
+  path: data_en/conference
+  label: Conferences
+  create: all
+  match: "**/*"
+- type: directory
+  path: data_en/bio
+  label: Bio
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

@@ -10,7 +10,7 @@ fields:
   name: title
   label: Titre de section
 pages:
-- data/bio/realisations.md
 - data/bio/formations.md
+- data/bio/realisations.md
 - data/bio/conferences.md
 - data/bio/articles.md
