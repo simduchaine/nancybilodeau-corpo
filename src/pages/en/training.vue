@@ -1,36 +1,36 @@
 <template>
-  <Layout>
+  <English-Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Conférence-Midi</h1>
+        <h1 class="title">Training</h1>
         <div
           style="margin-bottom:2rem;"
-        >Investir dans les connaissances de ses employés est un des meilleurs leviers de performance de l’entreprise. Plus les employés seront en santé et bien placés dans leur rôle, plus ils pourront contribuer au bon développement de l’entreprise. J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins.</div>
+        >I already have several elaborate courses that can be customized to your business needs, both in business and wellness.</div>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
-            v-for="conference in $page.conferences.edges"
-            :key="conference.node.id"
+            v-for="formation in $page.training.edges"
+            :key="formation.node.id"
           >
             <div class="card">
               <div class="card-image">
-                <g-image :src="conference.node.thumbnail"></g-image>
+                <g-image :src="formation.node.thumbnail"></g-image>
               </div>
               <div class="card-content">
-                <h2 class="title is-6">{{conference.node.title}}</h2>
-                <div v-html="conference.node.content"></div>
+                <h2 class="title is-6">{{formation.node.title}}</h2>
+                <div v-html="formation.node.content"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </Layout>
+  </English-Layout>
 </template>
 
 <page-query>
-query Conferences {
-  conferences: allconferences (sortBy: "type", order: ASC) {
+query Training {
+  training: alltraining (sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -48,7 +48,10 @@ query Conferences {
 <script>
 export default {
   metaInfo: {
-    title: "Conférence-Midi"
+    title: "Training",
+    htmlAttrs: {
+      lang: "en"
+    }
   },
   components: {}
 };

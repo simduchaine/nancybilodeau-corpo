@@ -3,7 +3,7 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container is-fluid">
         <div class="navbar-brand">
-          <g-link to="/" class="navbar-item">
+          <g-link to="/en/" class="navbar-item">
             <g-image src="~/assets/img/nancy-bilodeau-logo.svg" />
           </g-link>
 
@@ -22,11 +22,11 @@
 
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
-            <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
-            <g-link class="navbar-item" to="/formations">Formations</g-link>
-            <g-link class="navbar-item" to="/conference-midi">Conférence-Midi</g-link>
-            <g-link class="navbar-item" to="/a-propos">Bio</g-link>
-            <g-link class="navbar-item" to="/contact">Contact</g-link>
+            <g-link class="navbar-item" to="/en/services">Services</g-link>
+            <g-link class="navbar-item" to="/en/training">Training</g-link>
+            <g-link class="navbar-item" to="/en/conferences">Conferences</g-link>
+            <g-link class="navbar-item" to="/en/about">Bio</g-link>
+            <g-link class="navbar-item" to="/en/contact">Contact</g-link>
             <div class="navbar-item brands">
               <a href="https://www.facebook.com/NancyBilodeauCoaching/">
                 <font-awesome :icon="['fab', 'facebook-f']" />
@@ -47,25 +47,25 @@
                 <font-awesome :icon="['fas', 'language']" />
               </a>
               <div class="navbar-dropdown">
-                <a href="/en/" class="navbar-item">English</a>
+                <a href="/en/" class="navbar-item is-active">English</a>
                 <hr class="navbar-divider" />
-                <a href="/" class="navbar-item is-active">Français</a>
+                <a href="/" class="navbar-item">Français</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-    <div id="siteWidget">
+    <div id="siteWidgetEnglish">
       <div>
-        <a href="https://nancybilodeau.com/">
-          Pour moi
+        <a href="https://nancybilodeau.com/en/">
+          For Me
           <span>Perso</span>
         </a>
       </div>
       <div class="active">
-        <a href="https://corpo.nancybilodeau.com">
-          Pour ma compagnie
+        <a href="https://corpo.nancybilodeau.com/en/">
+          For My Company
           <span>Corpo</span>
         </a>
       </div>
@@ -109,10 +109,10 @@ export default {
 </script>
 
 <style lang="scss">
-#siteWidget {
+#siteWidgetEnglish {
   position: fixed;
   top: 4rem;
-  left: -180px;
+  left: -154px;
   z-index: 1;
   transition: left 0.5s;
   .active {

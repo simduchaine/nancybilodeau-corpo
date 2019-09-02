@@ -1,5 +1,5 @@
 <template>
-  <home-layout>
+  <Enhome>
     <section id="lead" class="has-background-info lead-content">
       <lead></lead>
     </section>
@@ -15,19 +15,22 @@
     <section id="mission-vision" class="section has-background-info">
       <mission-vision></mission-vision>
     </section>
-  </home-layout>
+  </Enhome>
 </template>
 
 <script>
-import lead from "~/components/home/Lead.vue";
-import callAction from "~/components/home/call-to-action.vue";
-import mainContent from "~/components/home/Main.vue";
-import consultation from "~/components/home/consultation.vue";
-import missionVision from "~/components/home/mission-vision.vue";
+import lead from "~/components/en/home/Lead.vue";
+import callAction from "~/components/en/home/call-to-action.vue";
+import mainContent from "~/components/en/home/Main.vue";
+import consultation from "~/components/en/home/consultation.vue";
+import missionVision from "~/components/en/home/mission-vision.vue";
 
 export default {
   metaInfo: {
-    title: "Accueil"
+    title: "Home",
+    htmlAttrs: {
+      lang: "en"
+    }
   },
   components: {
     lead,
@@ -122,10 +125,6 @@ blockquote {
       color: #d05208;
     }
   }
-}
-
-.navbar-dropdown {
-  max-width: 100%;
 }
 
 #services {

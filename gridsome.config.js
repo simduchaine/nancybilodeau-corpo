@@ -113,6 +113,49 @@ module.exports = {
           ]
         }
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/bio/**/*.md",
+        typeName: "bioEn",
+        resolveAbsolutePaths: true
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/pages/**/*.md",
+        typeName: "PageContentEn",
+        resolveAbsolutePaths: true,
+        route: "/en/:slug"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/home/**/*.md",
+        typeName: "homeEn",
+        resolveAbsolutePaths: true
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/training/**/*.md",
+        typeName: "training",
+        resolveAbsolutePaths: true,
+        route: "/en/training/:type/:slug"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/conference/**/*.md",
+        typeName: "conferencesEn",
+        resolveAbsolutePaths: true,
+        route: "/en/conferences/:type/:slug"
+      }
     }
   ],
   chainWebpack: config => {
