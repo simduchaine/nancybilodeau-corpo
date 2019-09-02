@@ -69,6 +69,8 @@ sections:
   match: "**/*"
   templates:
   - bio-components
+  - bio
+  - bio-emplois
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
