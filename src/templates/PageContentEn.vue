@@ -24,7 +24,7 @@ query Content ($id: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.pageContent.title,
+      title: this.$page.pageContentEn.title,
       htmlAttrs: {
         lang: "en"
       }
