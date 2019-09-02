@@ -48,7 +48,6 @@ sections:
 - type: document
   path: data_en/pages/services.md
   label: Services
-  match: "**/*"
 - type: directory
   path: data_en/training
   label: Training
