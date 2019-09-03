@@ -1,5 +1,5 @@
 ---
 title: Mission
----
 
-To accompany people and businesses to be healthy and to be realized.
+---
+Guide people and businesses to be healthier and reach their goals.
