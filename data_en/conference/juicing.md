@@ -1,5 +1,5 @@
 ---
-title: Thrive with Juice
+title: Thrive on Juice
 id: juicing
 thumbnail: "/uploads/AdobeStock_112447537.jpeg"
 link: "#"
