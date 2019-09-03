@@ -1,8 +1,8 @@
 ---
-title: Meditate to increase creativity
+title: Meditate to boost creativity
 id: meditate
 thumbnail: "/uploads/Dollarphotoclub_90931761.jpg"
 link: "#"
----
 
-The benefits of meditation according to the latest studies. Teaching and practices of different meditation techniques.
+---
+Learn the benefits of meditation according to the latest studies. Discovery different kinds of meditation and practice a little before to get back in action.
