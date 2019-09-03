@@ -1,5 +1,5 @@
 ---
-title: Meditate to boost creativity
+title: Boost creativity with meditation
 id: meditate
 thumbnail: "/uploads/Dollarphotoclub_90931761.jpg"
 link: "#"
