@@ -1,8 +1,8 @@
 ---
-title: Smoothies and super foods
+title: Smoothies and Superfoods
 id: smoothies
 thumbnail: "/uploads/smoothie.jpg"
 link: "#"
----
 
-Smoothies are a succulent way to consume our daily dose of fruits and vegetables. Basic recipes, ingredients and properties.
+---
+Smoothies are a delicious way to consume our daily dose of fruits and vegetables. Learn basic recipes, ingredients, tricks and superfoods' power.
