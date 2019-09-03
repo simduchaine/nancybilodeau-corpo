@@ -28,4 +28,4 @@ compagnies:
   logo: ''
 
 ---
-She worked amongst other for:
+I had the pleasure and privilege to work with great companies:
