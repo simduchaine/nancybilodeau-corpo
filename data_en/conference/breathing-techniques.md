@@ -1,5 +1,5 @@
 ---
-title: Breathing techniques
+title: Reduce stress with your breath
 id: breathing-techniques
 thumbnail: "/uploads/eli-defaria-vCzh1jOyre8-unsplash.jpg"
 link: "#"
