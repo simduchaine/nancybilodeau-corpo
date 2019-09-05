@@ -11,7 +11,7 @@
           :backDelay="2000"
         >
           <h1 class="title is-1 has-text-right">
-            <span>+</span>
+            <span>+</span> of
             <br />
             <span class="typing"></span>
           </h1>

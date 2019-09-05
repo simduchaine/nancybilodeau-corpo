@@ -24,7 +24,7 @@
           <div class="navbar-end">
             <g-link class="navbar-item" to="/en/services">Services</g-link>
             <g-link class="navbar-item" to="/en/training">Training</g-link>
-            <g-link class="navbar-item" to="/en/conferences">Conferences</g-link>
+            <g-link class="navbar-item" to="/en/conferences">Lunch & Learn</g-link>
             <g-link class="navbar-item" to="/en/about">Bio</g-link>
             <g-link class="navbar-item" to="/en/contact">Contact</g-link>
             <div class="navbar-item brands">
@@ -42,16 +42,7 @@
                 <font-awesome :icon="['fab', 'linkedin-in']" />
               </a>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                <font-awesome :icon="['fas', 'language']" />
-              </a>
-              <div class="navbar-dropdown">
-                <a href="/en/" class="navbar-item is-active">English</a>
-                <hr class="navbar-divider" />
-                <a href="/" class="navbar-item">Français</a>
-              </div>
-            </div>
+            <g-link class="navbar-item" style="color:#d05208" to="/">Fr</g-link>
           </div>
         </div>
       </div>
