@@ -2,11 +2,10 @@
   <English-Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Conferences</h1>
-        <div style="margin-bottom:2rem;">
-          Investing in employees’knowledge is one of the most powerful levers for a company's performance. The healthier and proper role fit, the more your employee will be able to contribute to the success of your company.
-          Nancy has several midi conferences developed and can customize them to your needs.
-        </div>
+        <h1 class="title">Lunch & Learn</h1>
+        <div
+          style="margin-bottom:2rem;"
+        >Investing in employees’ knowledge is one of the most powerful lever for a company's performance. The healthier your employees are and the proper role fit, the more your employees will be able to contribute to the success of your company. I have several Lunch & Learn ready and we can customize them to your needs.</div>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"

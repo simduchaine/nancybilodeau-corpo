@@ -5,7 +5,7 @@
         <h1 class="title">Training</h1>
         <div
           style="margin-bottom:2rem;"
-        >I already have several elaborate courses that can be customized to your business needs, both in business and wellness.</div>
+        >I have several courses ready that can be customized to your needs. We can also collaborate to develop new ones only for your Company.</div>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
