@@ -13,7 +13,7 @@ My expertise’s are:
 * Center of excellence rollout
 * Problem and conflict resolution
 
-I also offer a performance gap assessment service including an action plan to meet your desired performance.
+I also offer a holistic performance gap assessment service including an action plan to meet your desired performance.
 
 Finally, my years in the holistic health arena are allowing me to offer the following services:
 
