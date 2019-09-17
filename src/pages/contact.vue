@@ -14,7 +14,7 @@
         <div class="columns">
           <div class="column">
             <h2 class="title is-5">Écrivez-nous</h2>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <form name="contact" method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
               <div class="field">
                 <label class="label">Nom</label>
@@ -37,7 +37,7 @@
                 </div>
               </div>
 
-              <div data-netlify-recaptcha="true"></div>
+              
 
               <div class="field">
                 <div class="control">
