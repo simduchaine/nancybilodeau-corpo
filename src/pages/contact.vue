@@ -41,7 +41,7 @@
 
               <div class="field">
                 <div class="control">
-                  <input class="button submit-btn full-btn" type="submit" value="Envoyer" />
+                  <button type="submit" class="button submit-btn full-btn">Envoyer</button>
                 </div>
               </div>
             </form>
