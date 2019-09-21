@@ -22,6 +22,7 @@ function addStyleResource(rule) {
 module.exports = {
   siteName: "Nancy Bilodeau - Consultante holistique pour entreprises",
   //host: "0.0.0.0",
+  siteUrl: "https://corpo.nancybilodeau.com"
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -33,6 +34,12 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        cacheTime: 600000 // default
+      }
+    },
     {
       use: "@gridsome/source-filesystem",
       options: {
