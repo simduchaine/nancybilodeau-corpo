@@ -22,7 +22,7 @@ function addStyleResource(rule) {
 module.exports = {
   siteName: "Nancy Bilodeau - Consultante holistique pour entreprises",
   //host: "0.0.0.0",
-  siteUrl: "https://corpo.nancybilodeau.com"
+  siteUrl: "https://corpo.nancybilodeau.com",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
