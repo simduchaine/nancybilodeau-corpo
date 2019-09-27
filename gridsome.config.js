@@ -35,6 +35,12 @@ module.exports = {
   },
   plugins: [
     {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-38958579-4"
+      }
+    },
+    {
       use: "@gridsome/plugin-sitemap",
       options: {
         cacheTime: 600000 // default
