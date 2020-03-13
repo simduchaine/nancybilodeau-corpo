@@ -22,5 +22,5 @@ fields:
       maxSize: 250
     label: Logo
 pages:
-- data_en/bio/employers.md
 - data/bio/emplois.md
+- data_en/bio/employers.md
