@@ -2,7 +2,7 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
-- title: Garde Côtière Canadienne, Canada
+- title: British Petroleum, US
   logo: ''
 - title: SAAQ, Canada
   logo: ''
@@ -17,6 +17,8 @@ compagnies:
 - title: Abbott, Canada
   logo: ''
 - title: A&G Consulting, Canada
+  logo: ''
+- title: Garde Côtière Canadienne, Canada
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
