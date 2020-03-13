@@ -2,6 +2,8 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
+- title: SAAQ, Canada
+  logo: ''
 - title: Royal Trust, Canada
   logo: ''
 - title: PricewaterhouseCoopers, Canada
