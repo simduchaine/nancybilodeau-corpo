@@ -2,6 +2,8 @@
 id: employers
 title: Clients & Employers
 compagnies:
+- title: British Petroleum, US
+  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
