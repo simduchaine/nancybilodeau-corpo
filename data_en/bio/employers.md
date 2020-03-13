@@ -2,10 +2,6 @@
 id: employers
 title: Clients & Employers
 compagnies:
-- title: Canadian Coast Guard, Canada
-  logo: ''
-- title: British Petroleum, US
-  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
@@ -20,6 +16,8 @@ compagnies:
   logo: ''
 - title: A&G Consulting, Canada
   logo: ''
+- title: Canadian Coast Guard, Canada
+  logo: ''
 - title: Kerry, US & Canada
   logo: ''
 - title: Sears Holdings Corporation, US
@@ -31,6 +29,8 @@ compagnies:
 - title: Openwave System Inc., US
   logo: ''
 - title: USinternetworking, US
+  logo: ''
+- title: British Petroleum, US
   logo: ''
 
 ---
