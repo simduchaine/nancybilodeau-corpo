@@ -2,8 +2,6 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
-- title: British Petroleum, US
-  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
@@ -31,6 +29,8 @@ compagnies:
 - title: Openwave System Inc., US
   logo: ''
 - title: USinternetworking, US
+  logo: ''
+- title: British Petroleum, US
   logo: ''
 
 ---
