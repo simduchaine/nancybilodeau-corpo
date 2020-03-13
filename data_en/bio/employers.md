@@ -2,6 +2,8 @@
 id: employers
 title: Clients & Employers
 compagnies:
+- title: Canadian Coast Guard, Canada
+  logo: ''
 - title: British Petroleum, US
   logo: ''
 - title: SAAQ, Canada
