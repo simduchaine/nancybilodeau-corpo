@@ -2,6 +2,8 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
+- title: Garde Côtière Canadienne, Canada
+  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
