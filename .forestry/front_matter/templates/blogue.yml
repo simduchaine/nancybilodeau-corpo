@@ -4,16 +4,20 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
+  description: Titre de l'article
 - type: text
   name: id
   label: id
+  hidden: true
 - type: file
   name: thumbnail
   label: thumbnail
 - type: text
   name: link
-  label: link
+  label: Lien URL
+  description: Lien vers le contenu
 - type: number
   name: order
-  label: order
+  label: Ordre
+  description: Ordre de parution dans la page
