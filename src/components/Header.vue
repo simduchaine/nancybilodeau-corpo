@@ -25,6 +25,7 @@
             <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
             <g-link class="navbar-item" to="/conference-midi">Conférence-Midi</g-link>
+            <g-link class="navbar-item" to="/blogue">Blogue</g-link>
             <g-link class="navbar-item" to="/a-propos">Bio</g-link>
             <g-link class="navbar-item" to="/contact">Contact</g-link>
             <div class="navbar-item brands">

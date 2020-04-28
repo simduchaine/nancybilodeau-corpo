@@ -12,10 +12,10 @@ function addStyleResource(rule) {
     .loader("style-resources-loader")
     .options({
       patterns: [
-        path.resolve(__dirname, "./src/assets/sass/*.sass")
+        path.resolve(__dirname, "./src/assets/sass/*.sass"),
         // you can also use a glob if you'd prefer
         // path.resolve(__dirname, './src/assets/sass/*.sass'),
-      ]
+      ],
     });
 }
 
@@ -30,21 +30,21 @@ module.exports = {
       anchorClassName: "fas fa-hashtag",
       plugins: [
         // ...global plugins
-      ]
-    }
+      ],
+    },
   },
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
       options: {
-        id: "UA-38958579-4"
-      }
+        id: "UA-38958579-4",
+      },
     },
     {
       use: "@gridsome/plugin-sitemap",
       options: {
-        cacheTime: 600000 // default
-      }
+        cacheTime: 600000, // default
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -55,9 +55,9 @@ module.exports = {
         remark: {
           plugins: [
             // ...local plugins
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -69,9 +69,9 @@ module.exports = {
         remark: {
           plugins: [
             //require("remark-attr")
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -82,9 +82,9 @@ module.exports = {
         remark: {
           plugins: [
             // ...local plugins
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -96,9 +96,9 @@ module.exports = {
         remark: {
           plugins: [
             //require("remark-attr")
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -110,9 +110,23 @@ module.exports = {
         remark: {
           plugins: [
             //require("remark-attr")
-          ]
-        }
-      }
+          ],
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/articles/**/*.md",
+        typeName: "articles",
+        resolveAbsolutePaths: true,
+        //route: "/formations/:type/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -123,17 +137,17 @@ module.exports = {
         remark: {
           plugins: [
             //require("remark-attr")
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: "@gridsome/source-filesystem",
       options: {
         path: "data_en/bio/**/*.md",
         typeName: "bioEn",
-        resolveAbsolutePaths: true
-      }
+        resolveAbsolutePaths: true,
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -141,16 +155,16 @@ module.exports = {
         path: "data_en/pages/**/*.md",
         typeName: "PageContentEn",
         resolveAbsolutePaths: true,
-        route: "/en/:slug"
-      }
+        route: "/en/:slug",
+      },
     },
     {
       use: "@gridsome/source-filesystem",
       options: {
         path: "data_en/home/**/*.md",
         typeName: "homeEn",
-        resolveAbsolutePaths: true
-      }
+        resolveAbsolutePaths: true,
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -158,8 +172,8 @@ module.exports = {
         path: "data_en/training/**/*.md",
         typeName: "training",
         resolveAbsolutePaths: true,
-        route: "/en/training/:type/:slug"
-      }
+        route: "/en/training/:type/:slug",
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -167,15 +181,15 @@ module.exports = {
         path: "data_en/conference/**/*.md",
         typeName: "conferencesEn",
         resolveAbsolutePaths: true,
-        route: "/en/conferences/:type/:slug"
-      }
-    }
+        route: "/en/conferences/:type/:slug",
+      },
+    },
   ],
-  chainWebpack: config => {
+  chainWebpack: (config) => {
     // Load variables for all vue-files
     const types = ["vue-modules", "vue", "normal-modules", "normal"];
-    types.forEach(type =>
+    types.forEach((type) =>
       addStyleResource(config.module.rule("sass").oneOf(type))
     );
-  }
+  },
 };
