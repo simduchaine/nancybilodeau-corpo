@@ -1,0 +1,19 @@
+---
+label: Blogue
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: id
+  label: id
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: link
+  label: link
+- type: number
+  name: order
+  label: order
