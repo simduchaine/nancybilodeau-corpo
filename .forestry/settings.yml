@@ -38,6 +38,11 @@ sections:
   label: Bio
   create: all
   match: "**/*"
+- type: directory
+  path: data/articles
+  label: Blogue
+  create: all
+  match: "**/*"
 - type: heading
   label: Anglais
 - type: directory
