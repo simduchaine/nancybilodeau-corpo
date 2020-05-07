@@ -2,10 +2,7 @@
   <Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Formations</h1>
-        <div
-          style="margin-bottom:2rem;"
-        >J’ai déjà plusieurs cours d’élaborés qui peuvent être personnalisés au besoin de votre entreprise, tant en ce qui concerne les affaires que le mieux-être.</div>
+        <intro></intro>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
@@ -30,7 +27,7 @@
 
 <page-query>
 query Formations {
-  formations: allformations (sortBy: "type", order: ASC) {
+  formations: allformations (filter: { path: { nin: ["/formations/type/formations"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -45,12 +42,17 @@ query Formations {
 }
 </page-query>
 
+
 <script>
+import intro from "~/components/formations/intro.vue";
+
 export default {
   metaInfo: {
     title: "Formations"
   },
-  components: {}
+  components: {
+    intro
+  }
 };
 </script>
 
