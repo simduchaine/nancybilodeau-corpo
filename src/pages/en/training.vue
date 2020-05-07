@@ -2,10 +2,7 @@
   <English-Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Training</h1>
-        <div
-          style="margin-bottom:2rem;"
-        >I have several courses ready that can be customized to your needs. We can also collaborate to develop new ones only for your Company.</div>
+        <intro></intro>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
@@ -30,7 +27,7 @@
 
 <page-query>
 query Training {
-  training: alltraining (sortBy: "type", order: ASC) {
+  training: alltraining (filter: { path: { nin: ["/en/training/type/training"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -46,6 +43,8 @@ query Training {
 </page-query>
 
 <script>
+import intro from "~/components/en/training/intro.vue";
+
 export default {
   metaInfo: {
     title: "Training",
@@ -53,7 +52,9 @@ export default {
       lang: "en"
     }
   },
-  components: {}
+  components: {
+    intro
+  }
 };
 </script>
 
