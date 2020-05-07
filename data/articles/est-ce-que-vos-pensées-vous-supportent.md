@@ -6,6 +6,4 @@ link: https://mindset-entrepreneur.com/est-ce-que-vos-pensees-vous-supportent/?f
 order: 50
 
 ---
-La qualité de nos pensées détermine en grande partie la qualité de notre vie, donc de notre succès entrepreneurial, et aussi de notre capacité à faire face à l’adversité.
-
-Êtes-vous de ceux qui se sont réinventés rapidement durant la période de la COVID-19? Pur Vodka, une belle entreprise québécoise a modifié ses lignes pour produire du désinfectant à main...
+La qualité de nos pensées détermine en grande partie la qualité de notre vie, donc de notre succès entrepreneurial, et aussi de notre capacité à faire face à l’adversité. Êtes-vous de ceux qui se sont réinventés rapidement durant la période de la COVID-19? Pur Vodka, une belle entreprise québécoise a modifié ses lignes pour produire du désinfectant à main...
