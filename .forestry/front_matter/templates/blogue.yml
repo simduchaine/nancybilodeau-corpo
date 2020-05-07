@@ -21,3 +21,5 @@ fields:
   name: order
   label: Ordre
   description: Ordre de parution dans la page
+pages:
+- data/articles/est-ce-que-vos-pensées-vous-supportent.md
