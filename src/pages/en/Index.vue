@@ -1,5 +1,11 @@
 <template>
   <Enhome>
+    <section id="Magnet" style="background-color:#f1f0f0">
+      <Magnet></Magnet>
+    </section>
+    <section id="mission-vision" class="section">
+      <mission-vision></mission-vision>
+    </section>
     <section id="lead" class="has-background-info lead-content">
       <lead></lead>
     </section>
@@ -12,9 +18,6 @@
     <section id="consultation">
       <consultation></consultation>
     </section>
-    <section id="mission-vision" class="section has-background-info">
-      <mission-vision></mission-vision>
-    </section>
   </Enhome>
 </template>
 
@@ -24,6 +27,7 @@ import callAction from "~/components/en/home/call-to-action.vue";
 import mainContent from "~/components/en/home/Main.vue";
 import consultation from "~/components/en/home/consultation.vue";
 import missionVision from "~/components/en/home/mission-vision.vue";
+import Magnet from "~/components/en/home/Magnet.vue";
 
 export default {
   metaInfo: {
@@ -37,7 +41,8 @@ export default {
     callAction,
     mainContent,
     consultation,
-    missionVision
+    missionVision,
+    Magnet
   }
 };
 </script>

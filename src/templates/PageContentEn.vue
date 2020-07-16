@@ -1,9 +1,8 @@
 <template>
   <English-Layout>
-    <div class="offset-bg-blue section">
+    <featuredImage :image="$page.pageContentEn.thumbnail" :title="$page.pageContentEn.title"></featuredImage>
+    <div class="section has-background-info">
       <div class="container">
-        <h1 class="title">{{ $page.pageContentEn.title }}</h1>
-        <g-image class="header-img" :src="$page.pageContentEn.thumbnail"></g-image>
         <div v-html="$page.pageContentEn.content"></div>
       </div>
     </div>
@@ -21,6 +20,8 @@ query Content ($id: String!) {
 </page-query>
 
 <script>
+import featuredImage from "../components/featuredImage";
+
 export default {
   metaInfo() {
     return {
@@ -29,6 +30,9 @@ export default {
         lang: "en"
       }
     };
+  },
+  components: {
+    featuredImage
   }
 };
 </script>

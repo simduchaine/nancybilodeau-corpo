@@ -22,12 +22,13 @@
         </div>
       </div>
     </div>
+    <bottom-cta></bottom-cta>
   </English-Layout>
 </template>
 
 <page-query>
 query Training {
-  training: alltraining (filter: { path: { nin: ["/en/training/type/training"] }}, sortBy: "type", order: ASC) {
+  training: alltraining (filter: { path: { nin: ["/en/training/type/training", "/en/training/type/bottom-section"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -44,6 +45,7 @@ query Training {
 
 <script>
 import intro from "~/components/en/training/intro.vue";
+import bottomCta from "~/components/en/training/bottom_cta.vue";
 
 export default {
   metaInfo: {
@@ -53,7 +55,8 @@ export default {
     }
   },
   components: {
-    intro
+    intro,
+    bottomCta
   }
 };
 </script>

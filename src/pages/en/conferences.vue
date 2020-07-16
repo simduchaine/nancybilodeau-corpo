@@ -25,12 +25,13 @@
         </div>
       </div>
     </div>
+    <bottom-cta></bottom-cta>
   </English-Layout>
 </template>
 
 <page-query>
 query Conferences {
-  conferencesEn: allconferencesEn (sortBy: "type", order: ASC) {
+  conferencesEn: allconferencesEn (filter: { path: { nin: ["/en/conferences/type/bottom-section"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -46,6 +47,7 @@ query Conferences {
 </page-query>
 
 <script>
+import bottomCta from "~/components/en/conferences/bottom_cta.vue";
 export default {
   metaInfo: {
     title: "Conferences",
@@ -53,7 +55,9 @@ export default {
       lang: "en"
     }
   },
-  components: {}
+  components: {
+    bottomCta
+  }
 };
 </script>
 
