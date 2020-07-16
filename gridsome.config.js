@@ -106,7 +106,7 @@ module.exports = {
         path: "data/conference-midi/**/*.md",
         typeName: "conferences",
         resolveAbsolutePaths: true,
-        route: "/conferences-midi/:type/:slug",
+        route: "/conferences/:type/:slug",
         remark: {
           plugins: [
             //require("remark-attr")

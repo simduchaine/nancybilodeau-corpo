@@ -2,7 +2,7 @@
   <Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Conférence-Midi</h1>
+        <h1 class="title">Conférences</h1>
         <div
           style="margin-bottom:2rem;"
         >Investir dans les connaissances de ses employés est un des meilleurs leviers de performance de l’entreprise. Plus les employés seront en santé et bien placés dans leur rôle, plus ils pourront contribuer au bon développement de l’entreprise. J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins.</div>
@@ -25,12 +25,13 @@
         </div>
       </div>
     </div>
+    <bottom-cta></bottom-cta>
   </Layout>
 </template>
 
 <page-query>
 query Conferences {
-  conferences: allconferences (sortBy: "type", order: ASC) {
+  conferences: allconferences (filter: { path: { nin: ["/conferences/type/section-du-bas"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -46,11 +47,14 @@ query Conferences {
 </page-query>
 
 <script>
+import bottomCta from "~/components/conferences/bottom_cta";
 export default {
   metaInfo: {
-    title: "Conférence-Midi"
+    title: "Conférences"
   },
-  components: {}
+  components: {
+    bottomCta
+  }
 };
 </script>
 

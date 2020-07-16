@@ -1,5 +1,11 @@
 <template>
   <home-layout>
+    <section id="Magnet" style="background-color:#f1f0f0">
+      <Magnet></Magnet>
+    </section>
+    <section id="mission-vision" class="section">
+      <mission-vision></mission-vision>
+    </section>
     <section id="lead" class="has-background-info lead-content">
       <lead></lead>
     </section>
@@ -12,9 +18,6 @@
     <section id="consultation">
       <consultation></consultation>
     </section>
-    <section id="mission-vision" class="section has-background-info">
-      <mission-vision></mission-vision>
-    </section>
   </home-layout>
 </template>
 
@@ -24,6 +27,7 @@ import callAction from "~/components/home/call-to-action.vue";
 import mainContent from "~/components/home/Main.vue";
 import consultation from "~/components/home/consultation.vue";
 import missionVision from "~/components/home/mission-vision.vue";
+import Magnet from "~/components/home/Magnet.vue";
 
 export default {
   metaInfo: {
@@ -34,7 +38,8 @@ export default {
     callAction,
     mainContent,
     consultation,
-    missionVision
+    missionVision,
+    Magnet
   }
 };
 </script>
@@ -48,12 +53,14 @@ export default {
   line-height: 1.325;
 
   a {
-    color: #d05208;
+    color: #004369;
+    //color: #d05208;
     text-decoration: underline;
 
     .navbar-item.active--exact.active {
       background-color: #fafafa;
-      color: #d05208;
+      color: #004369;
+      //color: #d05208;
     }
 
     &:hover {
@@ -117,9 +124,11 @@ blockquote {
 
 .brands {
   a {
-    color: #3b3049;
+    color: #929292;
+    //color: #3b3049;
     &:hover {
-      color: #d05208;
+      color: #004369;
+      //color: #d05208;
     }
   }
 }

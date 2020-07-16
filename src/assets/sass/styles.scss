@@ -1,13 +1,15 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i|Oswald:500");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Oswald:wght@500&display=swap");
 
 // Set your brand colors
 $purple: #3b3049;
 $green: #b0c4a7;
 $blue: #c4e0ec;
+$light-blue: #c4e0ec80;
 $orange: #d05208;
+$darkblue: #004369;
 $light-black: #323232;
 
 /**
@@ -15,9 +17,10 @@ Update Bulma's global variables
 **/
 
 //fonts
-$family-primary: "Open Sans Condensed", sans-serif;
+$family-sans-serif: "Open Sans Condensed", sans-serif;
+$family-primary: "Dancing Script", cursive;
 $family-secondary: "Oswald", sans-serif;
-$body-family: $family-primary;
+$body-family: $family-sans-serif;
 $title-weight: 500;
 h1,
 h2,
@@ -30,7 +33,7 @@ h6 {
 $body-color: #000;
 
 //links
-$link: $orange;
+$link: $darkblue;
 $link-hover: $purple;
 
 //sizing
@@ -40,7 +43,7 @@ $body-size: 24px;
 
 //Colors
 $primary: $purple;
-$info: $blue;
+$info: $light-blue;
 
 /**
 Update some of Bulma's component variables 
@@ -54,8 +57,8 @@ $navbar-item-img-max-height: 2rem;
 $button-border-width: 3px;
 $button-padding-vertical: 1.5rem;
 $control-radius: 0;
-$button-color: $orange;
-$button-border-color: $orange;
+$button-color: $darkblue;
+$button-border-color: $darkblue;
 $button-hover-color: $purple;
 $button-hover-border-color: $purple;
 $button-focus-color: $purple;
@@ -79,7 +82,7 @@ $card-shadow: none;
 $card-content-background-color: $purple; */
 
 //footer
-$footer-background-color: $purple;
-$footer-padding: 3rem 1.5rem 1rem;
+$footer-background-color: $darkblue;
+$footer-padding: 1.5rem 1.5rem 1.5rem;
 
 @import "../../../node_modules/bulma/bulma.sass";

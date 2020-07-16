@@ -24,26 +24,26 @@
           <div class="navbar-end">
             <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
-            <g-link class="navbar-item" to="/conference-midi">Conférence-Midi</g-link>
+            <g-link class="navbar-item" to="/conference">Conférences</g-link>
             <g-link class="navbar-item" to="/blogue">Blogue</g-link>
             <g-link class="navbar-item" to="/a-propos">Bio</g-link>
             <g-link class="navbar-item" to="/contact">Contact</g-link>
             <div class="navbar-item brands">
               <a href="https://www.facebook.com/NancyBilodeauCoaching/">
-                <font-awesome :icon="['fab', 'facebook-f']" />
+                <font-awesome :icon="['fab', 'facebook-f']" size="xs" />
               </a>
             </div>
             <div class="navbar-item brands">
               <a href="https://www.youtube.com/channel/UCel4Y254TeW2NpNyw37RTcA">
-                <font-awesome :icon="['fab', 'youtube']" />
+                <font-awesome :icon="['fab', 'youtube']" size="xs" />
               </a>
             </div>
             <div class="navbar-item brands">
               <a href="https://ca.linkedin.com/in/nancybilodeau">
-                <font-awesome :icon="['fab', 'linkedin-in']" />
+                <font-awesome :icon="['fab', 'linkedin-in']" size="xs" />
               </a>
             </div>
-            <g-link class="navbar-item" style="color:#d05208" to="/en/">En</g-link>
+            <g-link class="navbar-item" style="color:#004369" to="/en/">En</g-link>
           </div>
         </div>
       </div>
@@ -108,7 +108,8 @@ export default {
   z-index: 1;
   transition: left 0.5s;
   .active {
-    background: #d05208;
+    //background: #d05208;
+    background: #004369;
     a {
       color: white;
     }
@@ -128,7 +129,7 @@ export default {
     border-radius: 15px;
     background: white;
     margin-bottom: 5px;
-    border: #d05208 1px solid;
+    border: #004369 1px solid;
   }
 }
 </style>

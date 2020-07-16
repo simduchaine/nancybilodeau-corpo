@@ -22,12 +22,13 @@
         </div>
       </div>
     </div>
+    <bottom-cta></bottom-cta>
   </Layout>
 </template>
 
 <page-query>
 query Formations {
-  formations: allformations (filter: { path: { nin: ["/formations/type/formations"] }}, sortBy: "type", order: ASC) {
+  formations: allformations (filter: { path: { nin: ["/formations/type/formations", "/formations/type/section-du-bas"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -45,13 +46,15 @@ query Formations {
 
 <script>
 import intro from "~/components/formations/intro.vue";
+import bottomCta from "~/components/formations/bottom_cta.vue";
 
 export default {
   metaInfo: {
     title: "Formations"
   },
   components: {
-    intro
+    intro,
+    bottomCta
   }
 };
 </script>

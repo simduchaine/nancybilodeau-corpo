@@ -37,8 +37,6 @@
                 </div>
               </div>
 
-              
-
               <div class="field">
                 <div class="control">
                   <button type="submit" class="button submit-btn full-btn">Submit</button>
@@ -82,31 +80,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.submit-btn {
-  border-width: 1px;
-  padding-top: calc(0.375em - 1px);
-  background: transparent;
-}
 
-#contact-info {
-  div {
-    margin-bottom: 1rem;
-  }
-}
-
-.contact-icon {
-  margin-right: 0.5rem;
-  color: #3b3049;
-}
-
-.full-btn {
-  background: #d05208;
-  color: white;
-  border: none;
-  &:hover {
-    color: white;
-    background: #3b3049;
-  }
-}
-</style>

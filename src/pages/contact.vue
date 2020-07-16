@@ -14,7 +14,7 @@
         <div class="columns">
           <div class="column">
             <h2 class="title is-5">Écrivez-nous</h2>
-            <form name="contact" method="POST" data-netlify="true" >
+            <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <div class="field">
                 <label class="label">Nom</label>
@@ -36,8 +36,6 @@
                   <textarea class="textarea" name="message"></textarea>
                 </div>
               </div>
-
-              
 
               <div class="field">
                 <div class="control">
@@ -98,7 +96,8 @@ export default {
 }
 
 .full-btn {
-  background: #d05208;
+  background: #004369;
+  //background: #d05208;
   color: white;
   border: none;
   &:hover {

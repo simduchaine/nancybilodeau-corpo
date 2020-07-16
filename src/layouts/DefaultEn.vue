@@ -46,9 +46,9 @@ li {
   opacity: 0;
 }
 
-.input {
+/* .input {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-}
+} */
 </style>

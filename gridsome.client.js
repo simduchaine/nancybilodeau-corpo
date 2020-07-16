@@ -4,7 +4,9 @@ import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faYoutube,
-  faLinkedinIn
+  faLinkedinIn,
+  faPinterest,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +16,9 @@ library.add(
   faLinkedinIn,
   faPhone,
   faEnvelope,
-  faLanguage
+  faLanguage,
+  faPinterest,
+  faInstagram
 );
 
 export default function(Vue) {

@@ -1,9 +1,8 @@
 <template>
   <Layout>
-    <div class="offset-bg-blue section">
+    <featuredImage :image="$page.pageContent.thumbnail" :title="$page.pageContent.title"></featuredImage>
+    <div class="section has-background-info">
       <div class="container">
-        <h1 class="title">{{ $page.pageContent.title }}</h1>
-        <g-image class="header-img" :src="$page.pageContent.thumbnail"></g-image>
         <div v-html="$page.pageContent.content"></div>
       </div>
     </div>
@@ -15,17 +14,22 @@ query Content ($id: String!) {
   pageContent (id: $id) {
     title
     content
-    thumbnail (quality: 90, height: 400)
+    thumbnail (quality: 90, height: 700)
   }
 }
 </page-query>
 
 <script>
+import featuredImage from "../components/featuredImage";
+
 export default {
   metaInfo() {
     return {
       title: this.$page.pageContent.title
     };
+  },
+  components: {
+    featuredImage
   }
 };
 </script>
