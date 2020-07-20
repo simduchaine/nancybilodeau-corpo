@@ -2,4 +2,4 @@
 title: Ma vision
 
 ---
-Un monde meilleur où les individus et entreprises prennent en charge leur mieux-être et leurs impacts sur les autres et l’environnement.
+Un monde meilleur où les individus et entreprises se réalise pleinement dans le respect de tout ce qui nous entoure.
