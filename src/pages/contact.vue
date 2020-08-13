@@ -39,7 +39,7 @@
 
               <div class="field">
                 <div class="control">
-                  <button type="submit" class="button submit-btn full-btn">Envoyer</button>
+                  <button type="submit" class="button">Envoyer</button>
                 </div>
               </div>
             </form>
@@ -58,8 +58,7 @@
             <div>
               <a
                 href="https://www.gorendezvous.com/homepage/111690"
-                class="button full-btn"
-                style="border-width:1px"
+                class="button"
               >Prendre Rendez-vous</a>
             </div>
           </div>
@@ -72,17 +71,17 @@
 <script>
 export default {
   metaInfo: {
-    title: "Contact"
-  }
+    title: "Contact",
+  },
 };
 </script>
 
 <style lang="scss">
-.submit-btn {
+/* .submit-btn {
   border-width: 1px;
   padding-top: calc(0.375em - 1px);
   background: transparent;
-}
+} */
 
 #contact-info {
   div {
@@ -95,7 +94,7 @@ export default {
   color: #3b3049;
 }
 
-.full-btn {
+/* .full-btn {
   background: #004369;
   //background: #d05208;
   color: white;
@@ -104,5 +103,5 @@ export default {
     color: white;
     background: #3b3049;
   }
-}
+} */
 </style>

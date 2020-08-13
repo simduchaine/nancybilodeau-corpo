@@ -31,7 +31,7 @@ import Magnet from "~/components/home/Magnet.vue";
 
 export default {
   metaInfo: {
-    title: "Accueil"
+    title: "Accueil",
   },
   components: {
     lead,
@@ -39,8 +39,8 @@ export default {
     mainContent,
     consultation,
     missionVision,
-    Magnet
-  }
+    Magnet,
+  },
 };
 </script>
 
@@ -118,7 +118,7 @@ blockquote {
 }
 
 .offset-bg-blue {
-  background-image: linear-gradient(transparent 9rem, #c4e0ec 0);
+  background-image: linear-gradient(transparent 9rem, #c4e0ec80 0);
   //margin-bottom: 2rem;
 }
 
