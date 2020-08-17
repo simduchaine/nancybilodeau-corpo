@@ -2,10 +2,7 @@
   <Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Conférences</h1>
-        <div
-          style="margin-bottom:2rem;"
-        >Investir dans les connaissances de ses employés est un des meilleurs leviers de performance de l’entreprise. Plus les employés seront en santé et bien placés dans leur rôle, plus ils pourront contribuer au bon développement de l’entreprise. J’ai déjà plusieurs conférences-midi d’élaborées et je peux aussi en développer sur mesure pour vos besoins.</div>
+        <intro></intro>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
@@ -31,7 +28,7 @@
 
 <page-query>
 query Conferences {
-  conferences: allconferences (filter: { path: { nin: ["/conferences/type/section-du-bas"] }}, sortBy: "type", order: ASC) {
+  conferences: allconferences (filter: { path: { nin: ["/conferences/type/conferences", "/conferences/type/section-du-bas"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -47,14 +44,16 @@ query Conferences {
 </page-query>
 
 <script>
+import intro from "~/components/conferences/intro.vue";
 import bottomCta from "~/components/conferences/bottom_cta";
 export default {
   metaInfo: {
-    title: "Conférences"
+    title: "Conférences",
   },
   components: {
-    bottomCta
-  }
+    bottomCta,
+    intro,
+  },
 };
 </script>
 

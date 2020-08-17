@@ -2,10 +2,7 @@
   <English-Layout>
     <div class="offset-bg-blue section">
       <div class="container">
-        <h1 class="title">Lunch & Learn</h1>
-        <div
-          style="margin-bottom:2rem;"
-        >Investing in employees’ knowledge is one of the most powerful lever for a company's performance. The healthier your employees are and the proper role fit, the more your employees will be able to contribute to the success of your company. I have several Lunch & Learn ready and we can customize them to your needs.</div>
+        <intro></intro>
         <div class="columns is-multiline">
           <div
             class="column is-one-third"
@@ -31,7 +28,7 @@
 
 <page-query>
 query Conferences {
-  conferencesEn: allconferencesEn (filter: { path: { nin: ["/en/conferences/type/bottom-section"] }}, sortBy: "type", order: ASC) {
+  conferencesEn: allconferencesEn (filter: { path: { nin: ["/en/conferences/type/lunch-and-learn", "/en/conferences/type/bottom-section"] }}, sortBy: "type", order: ASC) {
     edges {
       node {
         title
@@ -48,16 +45,19 @@ query Conferences {
 
 <script>
 import bottomCta from "~/components/en/conferences/bottom_cta.vue";
+import intro from "~/components/en/conferences/intro.vue";
+
 export default {
   metaInfo: {
     title: "Conferences",
     htmlAttrs: {
-      lang: "en"
-    }
+      lang: "en",
+    },
   },
   components: {
-    bottomCta
-  }
+    bottomCta,
+    intro,
+  },
 };
 </script>
 
