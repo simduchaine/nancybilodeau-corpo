@@ -65,7 +65,21 @@ module.exports = {
         path: "data/pages/**/*.md",
         typeName: "PageContent",
         resolveAbsolutePaths: true,
-        route: "/:slug",
+        // route: "/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ],
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data/linkedIn/**/*.md",
+        typeName: "linkedIn",
+        resolveAbsolutePaths: true,
+        // route: "/:slug",
         remark: {
           plugins: [
             //require("remark-attr")
@@ -155,7 +169,21 @@ module.exports = {
         path: "data_en/pages/**/*.md",
         typeName: "PageContentEn",
         resolveAbsolutePaths: true,
-        route: "/en/:slug",
+        //route: "/en/:slug",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "data_en/linkedIn/**/*.md",
+        typeName: "linkedInEn",
+        resolveAbsolutePaths: true,
+        // route: "/:slug",
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ],
+        },
       },
     },
     {
