@@ -61,6 +61,13 @@ sections:
   path: data_en/pages/services.md
   label: Services
 - type: directory
+  path: data_en/linkedIn
+  label: Ref. LinkedIn
+  create: documents
+  match: "**/*"
+  templates:
+  - ref-linkedin
+- type: directory
   path: data_en/training
   label: Training
   create: all
