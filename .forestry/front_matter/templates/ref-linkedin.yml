@@ -2,6 +2,11 @@
 label: ref-linkedin
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - type: text
   name: name
   label: Nom de la personne
