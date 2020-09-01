@@ -4,7 +4,7 @@
 
     <section id="linkedIn">
       <div class="container" style="padding: 3rem 0;">
-        <h1 class="title is-size-5">Références</h1>
+        <h1 class="title is-size-5">References</h1>
         <hr />
         <div v-for="reference in $page.linkedin.edges" :key="reference.node.id">
           <div>
@@ -14,7 +14,7 @@
           </div>
         </div>
         <p>
-          Pour plus de références, accédez à mon profile sur LinkedIn :
+          For more referrals, please consult my LinkedIn profile
           <a
             href="https://www.linkedin.com/in/nancybilodeau/"
           >https://www.linkedin.com/in/nancybilodeau/</a>
