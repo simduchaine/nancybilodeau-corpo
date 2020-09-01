@@ -20,8 +20,8 @@ sections:
   path: data/pages/services.md
   label: Services
 - type: directory
-  path: data/linkedin
-  label: References LinkedIn
+  path: data/linkedIn
+  label: Ref. LinkedIn
   create: documents
   match: "**/*"
 - type: directory
