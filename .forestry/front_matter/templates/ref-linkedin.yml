@@ -1,0 +1,10 @@
+---
+label: ref-linkedin
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: company
+  label: company
