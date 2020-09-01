@@ -1,5 +1,5 @@
 ---
-name: John Kasinecz
+title: John Kasinecz
 company: Kerry
 ---
 

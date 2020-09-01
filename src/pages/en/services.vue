@@ -9,7 +9,7 @@
         <div v-for="reference in $page.linkedin.edges" :key="reference.node.id">
           <div>
             <div v-html="reference.node.content"></div>
-            <h2 class="title is-size-6">{{ reference.node.name }}, {{ reference.node.company }}</h2>
+            <h2 class="title is-size-6">{{ reference.node.title }}, {{ reference.node.company }}</h2>
             <hr />
           </div>
         </div>
@@ -29,7 +29,7 @@ query {
   linkedin: alllinkedInEn {
     edges {
       node {
-        name
+        title
         company
         content
       }

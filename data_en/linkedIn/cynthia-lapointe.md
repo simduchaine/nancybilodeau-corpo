@@ -1,5 +1,5 @@
 ---
-name: Cynthia Lapointe
+title: Cynthia Lapointe
 company: Kerry
 ---
 
