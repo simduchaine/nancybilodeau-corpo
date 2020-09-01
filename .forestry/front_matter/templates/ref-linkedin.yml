@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-  hidden: true
+  hidden: false
 - type: text
   name: name
   label: Nom de la personne
