@@ -5,10 +5,10 @@
         <g-image :src="thumbnail" height="410" width="650"></g-image>
       </div>
       <div class="card-content">
-        <h2 class="title is-6">{{ title }}</h2>
-        <div v-html="content"></div>
+        <a :href="link" target="_blank"
+          ><h2 class="title is-7 has-text-centered">{{ title }}</h2></a
+        >
       </div>
-      <a :href="link" target="_blank" style="padding:1.5rem;">Lire plus ></a>
     </div>
   </div>
 </template>

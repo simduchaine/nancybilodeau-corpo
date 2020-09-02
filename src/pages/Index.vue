@@ -160,7 +160,6 @@
             v-for="article in $page.articles.edges"
             :key="article.node.id"
             :title="article.node.title"
-            :content="article.node.content"
             :thumbnail="article.node.thumbnail"
             :link="article.node.link"
             class="column is-third"
@@ -179,7 +178,6 @@ query Articles {
       node {
         title
         id
-        content
         path
         thumbnail (quality: 90, width: 678, height: 410)
         link
