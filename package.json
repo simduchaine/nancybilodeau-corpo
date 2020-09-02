@@ -21,6 +21,7 @@
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "remark-attr": "^0.8.3",
     "vue-carousel": "^0.18.0",
+    "vue-slick-carousel": "^1.0.6",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {

@@ -1,10 +1,24 @@
 <template>
   <section class="hero is-primary is-medium has-background">
-    <g-image class="hero-background is-transparent" :src="$static.HeroImg.hero_image" />
+    <g-image
+      class="hero-background is-transparent"
+      :src="$static.HeroImg.hero_image"
+    />
     <div class="hero-body">
       <div class="container">
         <vue-typed-js
-          :strings="['résultats', 'rétention', 'performance', 'valeur', 'engagement', 'loyauté', 'temps', 'satisfaction', 'dynamisme', 'harmonie']"
+          :strings="[
+            'résultats',
+            'rétention',
+            'performance',
+            'valeur',
+            'engagement',
+            'loyauté',
+            'temps',
+            'satisfaction',
+            'dynamisme',
+            'harmonie',
+          ]"
           :loop="true"
           :typeSpeed="150"
           :startDelay="1000"
@@ -34,12 +48,12 @@ query HeroImg {
 
 <script>
 export default {
-  name: "Hero"
+  name: "Hero",
 };
 </script>
 
 <style lang="scss">
-.hero {
+/* .hero {
   &.has-background {
     position: relative;
     overflow: hidden;
@@ -77,6 +91,5 @@ export default {
 
 .typing {
   color: #c4e0ec; //#3b3049
-}
+} */
 </style>
-
