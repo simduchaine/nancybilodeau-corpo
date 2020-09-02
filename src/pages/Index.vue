@@ -18,8 +18,42 @@
     <section id="consultation">
       <consultation></consultation>
     </section>
+    <section id="articles" class="has-background-info lead-content">
+      <div class="container">
+        <h1 class="title has-text-centered">Articles à la une</h1>
+        <div class="columns is-multiline">
+          <articles
+            v-for="article in $page.articles.edges"
+            :key="article.node.id"
+            :title="article.node.title"
+            :content="article.node.content"
+            :thumbnail="article.node.thumbnail"
+            :link="article.node.link"
+            class="column is-third"
+          ></articles>
+        </div>
+        <a href="/blogue/" class="button">Plus d'articles</a>
+      </div>
+    </section>
   </home-layout>
 </template>
+
+<page-query>
+query Articles {
+  articles: allarticles (filter: {sticky: {eq: true}}) {
+    edges {
+      node {
+        title
+        id
+        content
+        path
+        thumbnail (quality: 90, width: 678, height: 410)
+        link
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 import lead from "~/components/home/Lead.vue";
@@ -28,6 +62,7 @@ import mainContent from "~/components/home/Main.vue";
 import consultation from "~/components/home/consultation.vue";
 import missionVision from "~/components/home/mission-vision.vue";
 import Magnet from "~/components/home/Magnet.vue";
+import articles from "~/components/home/articles.vue";
 
 export default {
   metaInfo: {
@@ -40,6 +75,7 @@ export default {
     consultation,
     missionVision,
     Magnet,
+    articles,
   },
 };
 </script>
