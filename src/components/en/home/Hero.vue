@@ -34,12 +34,12 @@ query HeroImg {
 
 <script>
 export default {
-  name: "Hero"
+  name: "Hero",
 };
 </script>
 
 <style lang="scss">
-.hero {
+/* .hero {
   &.has-background {
     position: relative;
     overflow: hidden;
@@ -77,6 +77,6 @@ export default {
 
 .typing {
   color: #c4e0ec; //#3b3049
-}
+} */
 </style>
 

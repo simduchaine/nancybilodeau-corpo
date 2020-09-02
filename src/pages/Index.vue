@@ -24,51 +24,36 @@
         </div>-->
 
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/nancy-corpo-2.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/nancy-corpo-2.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">
-                Votre guide Santé et Bonheur au travail
-              </h1>
+              <h1 class="title is-size-2">Votre guide Santé et Bonheur au travail</h1>
               <h2 class="title is-size-3 is-family-primary">
                 Parce qu’il n’y a pas de limite à la performance lorsque vos
                 employés sont heureux et en santé
               </h2>
               <!-- <a href="https://nancybilodeau.com/a-propos" class="button"
                 >Pour en savoir plus sur moi</a
-              > -->
+              >-->
             </div>
           </div>
         </div>
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/team.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/team.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">
-                Pour des équipes plus qu’engagées
-              </h1>
-              <h2 class="title is-size-3 is-family-primary">
-                Qui vous mèneront vers vos objectifs de façon autonome
-              </h2>
+              <h1 class="title is-size-2">Pour des équipes plus qu’engagées</h1>
+              <h2
+                class="title is-size-3 is-family-primary"
+              >Qui vous mèneront vers vos objectifs de façon autonome</h2>
             </div>
           </div>
         </div>
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/velo-guy.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/velo-guy.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">
-                Développer une culture de Santé et Bonheur au travail
-              </h1>
+              <h1 class="title is-size-2">Développer une culture de Santé et Bonheur au travail</h1>
               <h2 class="title is-size-3 is-family-primary">
                 Lorsque les employés sentent que l’employeur a à cœur leur
                 mieux-être, ils ont encore plus à cœur le succès de
@@ -78,15 +63,10 @@
           </div>
         </div>
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/escalade.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/escalade.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">
-                Cultiver les valeurs humaines
-              </h1>
+              <h1 class="title is-size-2">Cultiver les valeurs humaines</h1>
               <h2 class="title is-size-3 is-family-primary">
                 Pour un climat de travail ou les employés se sentent bien et
                 peuvent déployer leurs meilleurs atouts
@@ -95,32 +75,24 @@
           </div>
         </div>
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/zipline.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/zipline.jpg" />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">
                 Pour un climat de travail ou les employés se sentent bien et
                 peuvent déployer leurs meilleurs atouts
               </h1>
-              <h2 class="title is-size-3 is-family-primary">
-                Ils pourront ainsi atteindre leur plein potentiel
-              </h2>
+              <h2
+                class="title is-size-3 is-family-primary"
+              >Ils pourront ainsi atteindre leur plein potentiel</h2>
             </div>
           </div>
         </div>
         <div>
-          <g-image
-            class="hero-background is-transparent"
-            src="../../uploads/tech.jpg"
-          />
+          <g-image class="hero-background is-transparent" src="../../uploads/tech.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">
-                Mener avec l’intelligence du cœur
-              </h1>
+              <h1 class="title is-size-2">Mener avec l’intelligence du cœur</h1>
               <h2 class="title is-size-3 is-family-primary">
                 Dépasser le modèle traditionnel de gestion pour coacher vers
                 l’excellence
@@ -144,10 +116,7 @@
       <call-action></call-action>
     </section>
     <section id="main">
-      <main-content
-        class="has-background-info lead-content"
-        style="margin-top: -10px"
-      ></main-content>
+      <main-content class="has-background-info lead-content" style="margin-top: -10px"></main-content>
     </section>
     <section id="consultation">
       <consultation></consultation>
@@ -238,8 +207,8 @@ export default {
 
   &.is-medium {
     .hero-body {
-      padding-bottom: 7.5rem;
-      padding-top: 7.5rem;
+      padding-bottom: 8.5rem;
+      padding-top: 8.5rem;
     }
   }
 }
