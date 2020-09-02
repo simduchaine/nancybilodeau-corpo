@@ -9,15 +9,17 @@
         <div v-for="reference in $page.linkedin.edges" :key="reference.node.id">
           <div>
             <div v-html="reference.node.content"></div>
-            <h2 class="title is-size-6">{{ reference.node.title }}, {{ reference.node.company }}</h2>
+            <h2 class="title is-size-6 is-family-primary">
+              {{ reference.node.title }}, {{ reference.node.company }}
+            </h2>
             <hr />
           </div>
         </div>
         <p>
           For more referrals, please consult my LinkedIn profile
-          <a
-            href="https://www.linkedin.com/in/nancybilodeau/"
-          >https://www.linkedin.com/in/nancybilodeau/</a>
+          <a href="https://www.linkedin.com/in/nancybilodeau/"
+            >https://www.linkedin.com/in/nancybilodeau/</a
+          >
         </p>
       </div>
     </section>
