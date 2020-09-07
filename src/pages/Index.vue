@@ -89,7 +89,7 @@
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/tech.jpg" />
+          <g-image class="hero-background is-transparent" src="../../uploads/heart-dark.jpeg" />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">Mener avec l’intelligence du cœur</h1>

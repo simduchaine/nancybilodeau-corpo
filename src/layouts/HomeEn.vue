@@ -2,7 +2,7 @@
   <div>
     <custom-header />
 
-    <hero />
+    <!-- <hero /> -->
 
     <slot />
 
@@ -19,7 +19,7 @@ export default {
   components: {
     customFooter,
     customHeader,
-    Hero
-  }
+    Hero,
+  },
 };
 </script>
