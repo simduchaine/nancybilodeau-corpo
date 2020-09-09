@@ -24,7 +24,7 @@
           <div class="navbar-end">
             <g-link class="navbar-item" to="/en/services">Services</g-link>
             <g-link class="navbar-item" to="/en/training">Training</g-link>
-            <g-link class="navbar-item" to="/en/conferences">Lunch & Learn</g-link>
+            <g-link class="navbar-item" to="/en/conferences">Conferences</g-link>
             <g-link class="navbar-item" to="/en/about">Bio</g-link>
             <g-link class="navbar-item" to="/en/contact">Contact</g-link>
             <div class="navbar-item brands">
@@ -84,7 +84,7 @@ export default {
     // Check if there are any navbar burgers
     if ($navbarBurgers.length > 0) {
       // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
+      $navbarBurgers.forEach((el) => {
         el.addEventListener("click", () => {
           // Get the target from the "data-target" attribute
           const target = el.dataset.target;
@@ -95,7 +95,7 @@ export default {
         });
       });
     }
-  }
+  },
 };
 </script>
 
