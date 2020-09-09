@@ -32,9 +32,10 @@
                 Parce qu’il n’y a pas de limite à la performance lorsque vos
                 employés sont heureux et en santé
               </h2>
-              <!-- <a href="https://nancybilodeau.com/a-propos" class="button"
-                >Pour en savoir plus sur moi</a
-              >-->
+              <a
+                href="https://corpo.nancybilodeau.com/a-propos"
+                class="button"
+              >Pour en savoir plus sur moi</a>
             </div>
           </div>
         </div>
@@ -46,6 +47,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >Qui vous mèneront vers vos objectifs de façon autonome</h2>
+              <a
+                href="https://corpo.nancybilodeau.com/services-conseils"
+                class="button"
+              >Découvrez mes Services Conseils</a>
             </div>
           </div>
         </div>
@@ -59,6 +64,10 @@
                 mieux-être, ils ont encore plus à cœur le succès de
                 l’entreprise.
               </h2>
+              <a
+                href="https://cours.nancybilodeau.com/programmemieuxetre"
+                class="button"
+              >Demander mon programme Mieux-Être</a>
             </div>
           </div>
         </div>
@@ -71,6 +80,10 @@
                 Pour un climat de travail ou les employés se sentent bien et
                 peuvent déployer leurs meilleurs atouts
               </h2>
+              <a
+                href="https://cours.nancybilodeau.com/officewellnessrescue"
+                class="button"
+              >Aider vos gens avec COVID-19</a>
             </div>
           </div>
         </div>
@@ -85,6 +98,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >Ils pourront ainsi atteindre leur plein potentiel</h2>
+              <a
+                href="https://corpo.nancybilodeau.com/contact"
+                class="button"
+              >Contactez moi pour explorer mon approche</a>
             </div>
           </div>
         </div>
@@ -97,6 +114,10 @@
                 Dépasser le modèle traditionnel de gestion pour coacher vers
                 l’excellence
               </h2>
+              <a
+                href="https://www.linkedin.com/pulse/quest-ce-que-la-coh%C3%A9rence-cardiaque-nancy-bilodeau-mba/"
+                class="button"
+              >En apprendre plus sur la cohérence cardiaque</a>
             </div>
           </div>
         </div>

@@ -16,9 +16,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >Because there is no limit to performance when people are healthy and happy</h2>
-              <!-- <a href="https://nancybilodeau.com/a-propos" class="button"
-                >Pour en savoir plus sur moi</a
-              >-->
+              <a
+                href="https://corpo.nancybilodeau.com/en/about"
+                class="button"
+              >Find out more about me</a>
             </div>
           </div>
         </div>
@@ -30,6 +31,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >Get them to lead the way to where you want to go</h2>
+              <a
+                href="https://corpo.nancybilodeau.com/en/services"
+                class="button"
+              >Discover my Consulting Services</a>
             </div>
           </div>
         </div>
@@ -39,6 +44,10 @@
             <div class="container">
               <h1 class="title is-size-2">Create a culture of Health and Happiness</h1>
               <h2 class="title is-size-3 is-family-primary">When they know you care, they care!!!!</h2>
+              <a
+                href="https://cours.nancybilodeau.com/programmemieuxetre"
+                class="button"
+              >Ask for my Wellness at Work Training Program</a>
             </div>
           </div>
         </div>
@@ -50,6 +59,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >So that your people are at ease and can contribute their best talents</h2>
+              <a
+                href="https://cours.nancybilodeau.com/officewellnessrescue"
+                class="button"
+              >Help your employees with COVID-19</a>
             </div>
           </div>
         </div>
@@ -61,6 +74,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >So that they can reach their full potential</h2>
+              <a
+                href="https://corpo.nancybilodeau.com/en/contact"
+                class="button"
+              >Contact me to find out my approach</a>
             </div>
           </div>
         </div>
@@ -72,6 +89,10 @@
               <h2
                 class="title is-size-3 is-family-primary"
               >Move beyond traditional management to coaching for greatness</h2>
+              <a
+                href="https://www.linkedin.com/pulse/quest-ce-que-la-cohérence-cardiaque-nancy-bilodeau-mba/"
+                class="button"
+              >Learn more about Heart Coherence</a>
             </div>
           </div>
         </div>
