@@ -1,6 +1,6 @@
 <template>
   <Enhome>
-    <section id="carousel-en">
+    <section id="carouselEn">
       <VueSlickCarousel
         class="hero is-medium has-background"
         :dots="true"
