@@ -24,41 +24,54 @@
         </div>-->
 
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/nancy-corpo-2.jpg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/nancy-corpo-2.jpg"
+          />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">Votre guide Santé et Bonheur au travail</h1>
+              <h1 class="title is-size-2">
+                Votre guide Santé et Bonheur au travail
+              </h1>
               <h2 class="title is-size-3 is-family-primary">
                 Parce qu’il n’y a pas de limite à la performance lorsque vos
                 employés sont heureux et en santé
               </h2>
-              <a
-                href="https://corpo.nancybilodeau.com/a-propos"
-                class="button"
-              >Pour en savoir plus sur moi</a>
+              <a href="https://corpo.nancybilodeau.com/a-propos" class="button"
+                >Pour en savoir plus sur moi</a
+              >
             </div>
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/team.jpg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/team.jpg"
+          />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">Pour des équipes plus qu’engagées</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >Qui vous mèneront vers vos objectifs de façon autonome</h2>
+              <h2 class="title is-size-3 is-family-primary">
+                Qui vous mèneront vers vos objectifs de façon autonome
+              </h2>
               <a
                 href="https://corpo.nancybilodeau.com/services-conseils"
                 class="button"
-              >Découvrez mes Services Conseils</a>
+                >Découvrez mes Services Conseils</a
+              >
             </div>
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/velo-guy.jpg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/velo-guy.jpg"
+          />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">Développer une culture de Santé et Bonheur au travail</h1>
+              <h1 class="title is-size-2">
+                Développer une culture de Santé et Bonheur au travail
+              </h1>
               <h2 class="title is-size-3 is-family-primary">
                 Lorsque les employés sentent que l’employeur a à cœur leur
                 mieux-être, ils ont encore plus à cœur le succès de
@@ -67,12 +80,16 @@
               <a
                 href="https://cours.nancybilodeau.com/programmemieuxetre"
                 class="button"
-              >Demander mon programme Mieux-Être</a>
+                >Demander mon programme Mieux-Être</a
+              >
             </div>
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/escalade.jpg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/escalade.jpg"
+          />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">Cultiver les valeurs humaines</h1>
@@ -83,30 +100,35 @@
               <a
                 href="https://cours.nancybilodeau.com/officewellnessrescue"
                 class="button"
-              >Aider vos gens avec COVID-19</a>
+                >Aider vos gens avec COVID-19</a
+              >
             </div>
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/zipline.jpg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/zipline.jpg"
+          />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">
-                Pour un climat de travail ou les employés se sentent bien et
-                peuvent déployer leurs meilleurs atouts
+                Aider vos employés à trouver leur équilibre
               </h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >Ils pourront ainsi atteindre leur plein potentiel</h2>
-              <a
-                href="https://corpo.nancybilodeau.com/contact"
-                class="button"
-              >Contactez moi pour explorer mon approche</a>
+              <h2 class="title is-size-3 is-family-primary">
+                Ils pourront ainsi atteindre leur plein potentiel
+              </h2>
+              <a href="https://corpo.nancybilodeau.com/contact" class="button"
+                >Contactez moi pour explorer mon approche</a
+              >
             </div>
           </div>
         </div>
         <div>
-          <g-image class="hero-background is-transparent" src="../../uploads/heart-dark.jpeg" />
+          <g-image
+            class="hero-background is-transparent"
+            src="../../uploads/heart-dark.jpeg"
+          />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">Mener avec l’intelligence du cœur</h1>
@@ -117,7 +139,8 @@
               <a
                 href="https://www.linkedin.com/pulse/quest-ce-que-la-coh%C3%A9rence-cardiaque-nancy-bilodeau-mba/"
                 class="button"
-              >En apprendre plus sur la cohérence cardiaque</a>
+                >En apprendre plus sur la cohérence cardiaque</a
+              >
             </div>
           </div>
         </div>
@@ -137,7 +160,10 @@
       <call-action></call-action>
     </section>
     <section id="main">
-      <main-content class="has-background-info lead-content" style="margin-top: -10px"></main-content>
+      <main-content
+        class="has-background-info lead-content"
+        style="margin-top: -10px"
+      ></main-content>
     </section>
     <section id="consultation">
       <consultation></consultation>
