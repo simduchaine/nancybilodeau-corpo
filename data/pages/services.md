@@ -26,5 +26,3 @@ Mes spécialités traditionnelles d’affaires sont :
 * L’implantation de centres d’excellence en gestion de projet, de processus et d’intelligence d’affaires
 
 [Prendre rendez-vous >](https://www.gorendezvous.com/homepage/111690)
-
-`youtube:https://www.youtube.com/watch?v=pGADyECacHU`
