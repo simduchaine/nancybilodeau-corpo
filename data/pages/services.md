@@ -27,6 +27,4 @@ Mes spécialités traditionnelles d’affaires sont :
 
 [Prendre rendez-vous >](https://www.gorendezvous.com/homepage/111690)
 
-`youtube:https://www.youtube.com/watch?v=-u1V9OO75xo`
-
 `youtube:https://www.youtube.com/watch?v=-u1V90075xo`
