@@ -1,7 +1,7 @@
 ---
 title: Qu’est-ce que la cohérence cardiaque?
 id: quest-ce-que-coherence-cardiaque
-thumbnail: "/uploads/coherence-cardiaque.png"
+thumbnail: "/uploads/coha-rence.jpeg"
 link: https://www.linkedin.com/pulse/quest-ce-que-la-coh%C3%A9rence-cardiaque-nancy-bilodeau-mba/
 order: 6
 
