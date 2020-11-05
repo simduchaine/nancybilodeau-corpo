@@ -1,7 +1,7 @@
 ---
 title: La conscience au service de son entreprise
 id: conscience-service-entreprise
-thumbnail: "/uploads/mitchell-griest-fbXHHCiheVM-unsplash.jpg"
+thumbnail: "/uploads/meditation-618.jpeg"
 link: https://journalactionpme.com/2020/02/comment-placer-la-conscience-au-service-de-son-entreprise/
 order: 3
 sticky: true
