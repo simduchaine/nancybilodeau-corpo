@@ -1,7 +1,7 @@
 ---
 title: La dimension humaine au cœur de nos projets!
 id: dimension-humaine-coeur-projets
-thumbnail: "/uploads/dimension-humaine.jpg"
+thumbnail: "/uploads/dimension-hum-618.jpeg"
 link: https://journalactionpme.com/2019/10/la-dimension-humaine-au-coeur-de-nos-projets/
 order: 4
 
