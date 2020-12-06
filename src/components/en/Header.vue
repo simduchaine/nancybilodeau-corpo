@@ -49,13 +49,13 @@
     </nav>
     <div id="siteWidgetEnglish">
       <div>
-        <a href="https://nancybilodeau.com/en/">
+        <a href="https://coaching.nancybilodeau.com/en/">
           For Me
           <span>Perso</span>
         </a>
       </div>
       <div class="active">
-        <a href="https://corpo.nancybilodeau.com/en/">
+        <a href="https://nancybilodeau.com/en/">
           For My Company
           <span>Corpo</span>
         </a>

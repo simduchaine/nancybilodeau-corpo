@@ -50,13 +50,13 @@
     </nav>
     <div id="siteWidget">
       <div>
-        <a href="https://nancybilodeau.com/">
+        <a href="https://coaching.nancybilodeau.com/">
           Pour moi
           <span>Perso</span>
         </a>
       </div>
       <div class="active">
-        <a href="https://corpo.nancybilodeau.com">
+        <a href="https://nancybilodeau.com">
           Pour ma compagnie
           <span>Corpo</span>
         </a>
