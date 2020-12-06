@@ -33,7 +33,7 @@
                 employés sont heureux et en santé
               </h2>
               <a
-                href="https://corpo.nancybilodeau.com/a-propos"
+                href="https://nancybilodeau.com/a-propos"
                 class="button"
               >Pour en savoir plus sur moi</a>
             </div>
@@ -48,7 +48,7 @@
                 class="title is-size-3 is-family-primary"
               >Qui vous mèneront vers vos objectifs de façon autonome</h2>
               <a
-                href="https://corpo.nancybilodeau.com/services-conseils"
+                href="https://nancybilodeau.com/services-conseils"
                 class="button"
               >Découvrez mes Services Conseils</a>
             </div>
@@ -96,7 +96,7 @@
                 class="title is-size-3 is-family-primary"
               >Ils pourront ainsi atteindre leur plein potentiel</h2>
               <a
-                href="https://corpo.nancybilodeau.com/contact"
+                href="https://nancybilodeau.com/contact"
                 class="button"
               >Contactez moi pour explorer mon approche</a>
             </div>

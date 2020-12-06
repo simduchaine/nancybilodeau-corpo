@@ -17,7 +17,7 @@
                 class="title is-size-3 is-family-primary"
               >Because there is no limit to performance when people are healthy and happy</h2>
               <a
-                href="https://corpo.nancybilodeau.com/en/about"
+                href="https://nancybilodeau.com/en/about"
                 class="button"
               >Find out more about me</a>
             </div>
@@ -32,7 +32,7 @@
                 class="title is-size-3 is-family-primary"
               >Get them to lead the way to where you want to go</h2>
               <a
-                href="https://corpo.nancybilodeau.com/en/services"
+                href="https://nancybilodeau.com/en/services"
                 class="button"
               >Discover my Consulting Services</a>
             </div>
@@ -75,7 +75,7 @@
                 class="title is-size-3 is-family-primary"
               >So that they can reach their full potential</h2>
               <a
-                href="https://corpo.nancybilodeau.com/en/contact"
+                href="https://nancybilodeau.com/en/contact"
                 class="button"
               >Contact me to find out my approach</a>
             </div>
