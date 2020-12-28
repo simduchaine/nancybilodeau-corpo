@@ -2,6 +2,8 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
+- title: Familiprix, Canada
+  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Phytimpact, Canada
