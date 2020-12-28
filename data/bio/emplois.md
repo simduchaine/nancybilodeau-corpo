@@ -2,13 +2,15 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
-- title: Spa Eastman, Canada
+- title: Manoir des Augustines, Canada
   logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Phytimpact, Canada
   logo: ''
 - title: Kerry, US & Canada
+  logo: ''
+- title: Spa Eastman, Canada
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
