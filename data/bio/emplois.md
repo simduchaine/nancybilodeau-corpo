@@ -2,6 +2,8 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
+- title: La Capitale, Canada
+  logo: ''
 - title: Familiprix, Canada
   logo: ''
 - title: SAAQ, Canada
