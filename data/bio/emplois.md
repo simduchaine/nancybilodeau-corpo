@@ -2,9 +2,13 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
-- title: Phytimpact, Canada
+- title: Spa Eastman, Canada
   logo: ''
 - title: SAAQ, Canada
+  logo: ''
+- title: Phytimpact, Canada
+  logo: ''
+- title: Kerry, US & Canada
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
@@ -19,8 +23,6 @@ compagnies:
 - title: A&G Consulting, Canada
   logo: ''
 - title: Garde Côtière Canadienne, Canada
-  logo: ''
-- title: Kerry, US & Canada
   logo: ''
 - title: Sears Holdings Corporation, US
   logo: ''
