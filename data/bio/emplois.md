@@ -1,14 +1,14 @@
 ---
 id: emplois
-title: Clients & Employeurs
+title: Clients, Employeurs & Collaborateurs
 compagnies:
-- title: Manoir des Augustines, Canada
-  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Phytimpact, Canada
   logo: ''
 - title: Kerry, US & Canada
+  logo: ''
+- title: Manoir des Augustines, Canada
   logo: ''
 - title: Spa Eastman, Canada
   logo: ''
