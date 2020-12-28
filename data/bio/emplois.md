@@ -4,7 +4,7 @@ title: Clients, Employeurs & Collaborateurs
 compagnies:
 - title: La Capitale Groupe Financier Inc., Canada
   logo: ''
-- title: Familiprix, Canada
+- title: Familiprix Inc., Canada
   logo: ''
 - title: SAAQ, Canada
   logo: ''
