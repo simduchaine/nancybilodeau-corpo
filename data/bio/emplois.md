@@ -2,19 +2,21 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
-- title: La Capitale Groupe Financier Inc., Canada
-  logo: ''
-- title: Familiprix Inc., Canada
+- title: Ville de Québec, Canada
   logo: ''
 - title: SAAQ, Canada
   logo: ''
-- title: Phytimpact, Canada
-  logo: ''
 - title: Kerry, US & Canada
+  logo: ''
+- title: Phytimpact, Canada
   logo: ''
 - title: Manoir des Augustines, Canada
   logo: ''
 - title: Spa Eastman, Canada
+  logo: ''
+- title: La Capitale Groupe Financier Inc., Canada
+  logo: ''
+- title: Familiprix Inc., Canada
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
