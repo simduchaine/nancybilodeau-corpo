@@ -2,7 +2,7 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
-- title: La Capitale, Canada
+- title: La Capitale Groupe Financier Inc., Canada
   logo: ''
 - title: Familiprix, Canada
   logo: ''
