@@ -2,6 +2,8 @@
 id: emplois
 title: Clients & Employeurs
 compagnies:
+- title: Phytimpact, Canada
+  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
