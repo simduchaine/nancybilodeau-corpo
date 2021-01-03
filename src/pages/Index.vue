@@ -27,7 +27,7 @@
           <g-image class="hero-background is-transparent" src="../../uploads/nancy-corpo-2.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">Votre guide Santé et Bonheur au travail</h1>
+              <h1 class="title is-size-2">Votre guide "Santé et Mieux-Être" au travail</h1>
               <h2 class="title is-size-3 is-family-primary">
                 Parce qu’il n’y a pas de limite à la performance lorsque vos
                 employés sont heureux et en santé
