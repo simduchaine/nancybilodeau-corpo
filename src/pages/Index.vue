@@ -189,7 +189,10 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
   metaInfo: {
-    title: "Accueil",
+    title: "Services conseils holistiques en entreprises et coaching individuel pour employés et gestionnaires",
+     meta: [
+      { name: 'description', content: "J'assiste les entreprises à atteindre leurs objectifs par l'établissement d'un milieu de travail vibrant où tous prennent soin de leur santé et de leur attitude en pleine conscience, pour apporter le meilleur d'eux même et contribuer au succès de l'entreprise." },
+    ]
   },
   components: {
     lead,

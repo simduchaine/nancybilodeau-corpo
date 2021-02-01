@@ -134,7 +134,10 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
   metaInfo: {
-    title: "Home",
+    title: "Coaching and holistic consulting for companies and individuals",
+    meta: [
+      { name: 'description', content: "I help companies achieve their goals, manage projects, improve processes, reduce conflict and build a healthy workplace based on sustainable human values. I also help individuals achieve optimal wellness and fulfill themselves." },
+    ],
     htmlAttrs: {
       lang: "en",
     },
