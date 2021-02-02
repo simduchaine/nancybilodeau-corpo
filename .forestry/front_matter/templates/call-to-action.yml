@@ -8,6 +8,11 @@ fields:
 - type: file
   name: thumbnail
   label: Image
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - data/home/call-to-action.md
 - data/pages/services.md
