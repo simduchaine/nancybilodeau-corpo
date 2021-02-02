@@ -8,14 +8,6 @@ fields:
 - type: file
   name: thumbnail
   label: Image
-- name: references_linkedin
-  type: blocks
-  label: Références Linkedin
-  template_types:
-  - ref-linkedin
-  config:
-    min: 
-    max: 
 pages:
 - data/home/call-to-action.md
 - data/pages/services.md
