@@ -33,7 +33,7 @@ sections:
   - formations
 - type: directory
   path: data/conference-midi
-  label: Conférence-Midi
+  label: Conférences
   create: all
   match: "**/*"
   templates:
