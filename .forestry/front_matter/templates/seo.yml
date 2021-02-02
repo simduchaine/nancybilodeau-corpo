@@ -5,16 +5,18 @@ fields:
 - name: meta_title
   type: text
   config:
-    required: true
+    required: false
     max: 60
   label: Meta:Title
+  description: Titre à utiliser pour les SEO (meta:title)
 - name: meta_description
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
     max: 160
   label: Meta:Description
+  description: Description à utiliser comme meta:description
