@@ -34,7 +34,7 @@ sections:
 - type: directory
   path: data/conference-midi
   label: Conférences
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - formations
