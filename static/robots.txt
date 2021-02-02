@@ -1,0 +1,3 @@
+Sitemap: https://nancybilodeau.com/sitemap.xml
+
+User-agent:*
