@@ -8,6 +8,8 @@ fields:
 - type: text
   name: id
   label: id
-- type: text
-  name: thumbnail
-  label: thumbnail
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
