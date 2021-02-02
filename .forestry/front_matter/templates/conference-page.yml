@@ -8,6 +8,7 @@ fields:
 - type: text
   name: id
   label: id
+  hidden: true
 - name: seo
   type: include
   config: {}
