@@ -16,3 +16,6 @@ fields:
   name: link
   label: Lien url
   hidden: true
+pages:
+- data/conference-midi/smoothie.md
+- data/conference-midi/technique-respiration.md
