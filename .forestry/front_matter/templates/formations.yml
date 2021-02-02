@@ -17,5 +17,7 @@ fields:
   label: Lien url
   hidden: true
 pages:
+- data/conference-midi/mediter.md
+- data/conference-midi/mieux-manger.md
 - data/conference-midi/smoothie.md
 - data/conference-midi/technique-respiration.md
