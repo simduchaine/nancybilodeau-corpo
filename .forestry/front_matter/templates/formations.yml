@@ -17,6 +17,7 @@ fields:
   label: Lien url
   hidden: true
 pages:
+- data/conference-midi/bienfait-jus.md
 - data/conference-midi/mediter.md
 - data/conference-midi/mieux-manger.md
 - data/conference-midi/smoothie.md
