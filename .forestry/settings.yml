@@ -36,6 +36,8 @@ sections:
   label: Conférences
   create: all
   match: "**/*"
+  templates:
+  - formations
 - type: directory
   path: data/bio
   label: Bio
