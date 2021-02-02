@@ -1,0 +1,13 @@
+---
+label: Conference page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: id
+  label: id
+- type: text
+  name: thumbnail
+  label: thumbnail
