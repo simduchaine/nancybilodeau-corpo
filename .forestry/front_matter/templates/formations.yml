@@ -18,6 +18,7 @@ fields:
   hidden: true
 pages:
 - data/conference-midi/bienfait-jus.md
+- data/conference-midi/coherence-cardiaque.md
 - data/conference-midi/mediter.md
 - data/conference-midi/mieux-manger.md
 - data/conference-midi/smoothie.md
