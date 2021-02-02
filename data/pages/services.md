@@ -2,6 +2,9 @@
 id: services
 title: Services conseils
 thumbnail: "/uploads/Capture d’écran 2019-08-27 à 12.40.16.png"
+meta_description: Évaluation des obstacles à la performance et au mieux-être en entreprise.
+  Établissement de plan d’action pour atteindre vos objectifs de performance.
+meta_title: Service-conseil en amélioration de la performance au travail
 
 ---
 J’offre un service complet d’évaluation des obstacles à la performance et au mieux-être dans l'entreprise avec l’établissement d’un plan d’action pour atteindre la performance désirée. L’approche consiste à revoir les résultats actuels, l’étude de la dynamique du travail d’équipe et des relations humaines à l’intérieur de l’entreprise ainsi que la revue des méthodes de gestion au besoin.
