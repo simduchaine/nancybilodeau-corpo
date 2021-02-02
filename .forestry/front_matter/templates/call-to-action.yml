@@ -8,6 +8,11 @@ fields:
 - type: file
   name: thumbnail
   label: Image
+- name: references_linkedin
+  type: include
+  config: {}
+  template: ref-linkedin
+  label: Références Linkedin
 pages:
 - data/home/call-to-action.md
 - data/pages/services.md
