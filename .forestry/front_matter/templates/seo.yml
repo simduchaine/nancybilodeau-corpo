@@ -5,14 +5,16 @@ fields:
 - name: meta_title
   type: text
   config:
-    required: false
+    required: true
+    max: 60
   label: Meta:Title
 - name: meta_description
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
+    max: 160
   label: Meta:Description
