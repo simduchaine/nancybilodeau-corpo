@@ -1,5 +1,5 @@
 ---
-title: Qu’est-ce que le service conseil holistique?
+title: Une approche holistique
 definition: 'En épistémologie ou en sciences humaines, holistique signifie : « relatif
   à la doctrine qui ramène la connaissance du particulier, de l’individuel à celle
   de l’ensemble, du tout dans lequel il s’inscrit ». (Petit Larousse) « Qui relève
@@ -8,7 +8,7 @@ definition: 'En épistémologie ou en sciences humaines, holistique signifie : �
   la somme de leurs parties, au travers de l’évolution créatrice ». (Wikipédia)'
 
 ---
-Mon approche de consultation holistique en entreprise vise à regarder toutes les dimensions de l’entreprise pour l’aider à trouver un équilibre vers une performance optimale.
+Mon approche de consultation est holistique. Dans chacun de mes mandats, j'évalue les différentes dimensions de l’entreprise pour l’aider à trouver l'équilibre vers ses objectifs et atteindre une performance optimale.
 
 La performance de l’entreprise est le parfait reflet de l’alignement de ses méthodes de gestion et de son personnel. Une entreprise dont l’équipe de gestion n’est pas en santé, tant en ce qui concerne le travail d’équipe que la santé de ses individus, sera plus ou moins hypothéquée par ses failles. Les recherches abondent maintenant pour démontrer l’avantage du mieux-être des employés au travail.
 
