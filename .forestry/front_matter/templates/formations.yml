@@ -15,7 +15,7 @@ fields:
 - type: text
   name: link
   label: Lien url
-  hidden: true
+  hidden: false
 pages:
 - data/conference-midi/bienfait-jus.md
 - data/conference-midi/boite-a-lunch-vitalite.md
