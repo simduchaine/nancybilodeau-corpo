@@ -16,6 +16,11 @@ sections:
   label: Accueil
   create: all
   match: "**/*"
+- type: directory
+  path: data/carousel
+  label: Carousel
+  create: all
+  match: "**/*"
 - type: document
   path: data/pages/services.md
   label: Services
