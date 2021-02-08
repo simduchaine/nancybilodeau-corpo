@@ -2,21 +2,21 @@
 label: Carousel
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: subtitle
-  label: subtitle
-- type: file
-  name: backgroundImg
-  label: backgroundImg
-- type: text
-  name: buttonText
-  label: buttonText
-- type: text
-  name: buttonLink
-  label: buttonLink
 - type: number
   name: order
-  label: order
+  label: Ordre d'affichage
+- type: text
+  name: title
+  label: Titre
+- type: text
+  name: subtitle
+  label: Sous-Titre
+- type: file
+  name: backgroundImg
+  label: Image
+- type: text
+  name: buttonText
+  label: Texte du bouton
+- type: text
+  name: buttonLink
+  label: Lien du bouton
