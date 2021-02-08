@@ -1,0 +1,22 @@
+---
+label: Carousel
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: file
+  name: backgroundImg
+  label: backgroundImg
+- type: text
+  name: buttonText
+  label: buttonText
+- type: text
+  name: buttonLink
+  label: buttonLink
+- type: number
+  name: order
+  label: order
