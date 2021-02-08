@@ -62,6 +62,19 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        path: "data/carousel/**/*.md",
+        typeName: "carousel",
+        resolveAbsolutePaths: true,
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ],
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         path: "data/pages/**/*.md",
         typeName: "PageContent",
         resolveAbsolutePaths: true,

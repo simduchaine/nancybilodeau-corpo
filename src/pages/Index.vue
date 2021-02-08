@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        
+
       </VueSlickCarousel>
     </section>
 
@@ -73,6 +73,19 @@ query Articles {
         path
         thumbnail (quality: 90, width: 678, height: 410)
         link
+      }
+    }
+  },
+  slides: allCarousel(sortBy: "order", order: ASC) {
+    edges {
+      node {
+        title
+        subtitle
+        path
+        backgroundImg (quality: 100)
+        buttonText
+        buttonLink
+        id
       }
     }
   }
