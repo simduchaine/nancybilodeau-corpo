@@ -1,7 +1,7 @@
 ---
 title: Programme Mieux-Être
 id: gestion-programme
-thumbnail: "/uploads/adult-afro-blazer-1056556.jpg"
+thumbnail: "/uploads/well-being-large.png"
 link: "#https://cours.nancybilodeau.com/programmemieuxetre"
 order: 2
 
