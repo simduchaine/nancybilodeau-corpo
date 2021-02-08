@@ -16,7 +16,7 @@
               <div class="card-content">
                 <h2 class="title is-6">{{formation.node.title}}</h2>
                 <div v-html="formation.node.content"></div>
-                <a :href="formation.node.link">S'inscrire ></a>
+                <a :href="formation.node.link">En savoir plus ></a>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
 
 <page-query>
 query Formations {
-  formations: allformations (filter: { path: { nin: ["/formations/type/formations", "/formations/type/section-du-bas"] }}, sortBy: "type", order: ASC) {
+  formations: allformations (filter: { path: { nin: ["/formations/type/formations", "/formations/type/section-du-bas"] }}, sortBy: "order", order: ASC) {
     edges {
       node {
         title

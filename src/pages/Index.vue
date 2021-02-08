@@ -76,7 +76,7 @@ query Articles {
       }
     }
   },
-  slides: allCarousel(sortBy: "order", order: ASC) {
+  slides: allcarousel(sortBy: "order", order: ASC) {
     edges {
       node {
         title
