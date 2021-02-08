@@ -1,7 +1,7 @@
 ---
 id: ''
 title: Leaders Résiliants
-thumbnail: "/uploads/leaders-resilients.png"
+thumbnail: "/uploads/leaders-resiliants-large.png"
 link: https://nancybilodeau.com/contact
 order: 4
 
