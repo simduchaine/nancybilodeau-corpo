@@ -16,7 +16,7 @@
               <div class="card-content">
                 <h2 class="title is-6">{{formation.node.title}}</h2>
                 <div v-html="formation.node.content"></div>
-                <a :href="edge.node.link">S'inscrire ></a>
+                <a :href="formation.node.link">Register ></a>
               </div>
             </div>
           </div>
