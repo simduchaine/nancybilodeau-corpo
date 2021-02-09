@@ -13,7 +13,7 @@
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">{{ slide.node.title }}</h1>
-              <h2 class="title is-size-3">{{ slide.node.subtitle }}</h2>
+              <h2 class="title is-size-3 is-family-primary">{{ slide.node.subtitle }}</h2>
               <a :href="slide.node.buttonLink" class="button">
                 {{
                 slide.node.buttonText
