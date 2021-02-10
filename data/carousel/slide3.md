@@ -1,8 +1,10 @@
 ---
-title: Développer une culture de Santé et Bonheur au travail
-subtitle: Lorsque les employés sentent que l’employeur a à cœur leur mieux-être, ils ont encore plus à cœur le succès de l’entreprise.
+title: Développer une culture de Santé et Mieux-Être au travail
+subtitle: Pour réduire votre taux de roulement, l'absentéisme, le présentéisme et
+  vos coût d'assurance
 backgroundImg: "/uploads/velo-guy.jpg"
 buttonText: Demander mon programme Mieux-Être
 buttonLink: https://cours.nancybilodeau.com/programmemieuxetre
 order: 3
+
 ---
