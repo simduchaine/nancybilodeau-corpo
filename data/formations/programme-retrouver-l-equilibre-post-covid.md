@@ -1,6 +1,6 @@
 ---
 id: ''
-title: Programme Retrouver l'Équilibre Post Covid
+title: Programme trouver l'équilibre
 thumbnail: "/uploads/equilibre-large.png"
 link: https://cours.nancybilodeau.com/covid19equilibre
 order: 1
