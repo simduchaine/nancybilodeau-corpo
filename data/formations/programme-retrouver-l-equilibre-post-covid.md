@@ -1,6 +1,6 @@
 ---
 id: ''
-title: Programme trouver l'équilibre
+title: Programme équilibre
 thumbnail: "/uploads/equilibre-large.png"
 link: https://cours.nancybilodeau.com/covid19equilibre
 order: 1
