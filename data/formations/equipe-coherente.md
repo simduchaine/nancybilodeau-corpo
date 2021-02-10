@@ -1,6 +1,6 @@
 ---
 id: ''
-title: Équipe Cohérente
+title: Équipe cohérente
 thumbnail: "/uploads/equipe-coherente-large.png"
 link: https://nancybilodeau.com/contact
 order: 3
