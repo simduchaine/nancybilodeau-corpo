@@ -1,5 +1,5 @@
 ---
-title: Développer une culture de Santé et Mieux-Être au travail
+title: Développer une culture Santé
 subtitle: Pour réduire votre taux de roulement, l'absentéisme, le présentéisme et
   vos coûts d'assurance
 backgroundImg: "/uploads/velo-guy.jpg"
