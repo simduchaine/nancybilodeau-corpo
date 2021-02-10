@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 9
 id: ''
 title: Vaincre les 5 dysfonctions d'une équipe
 thumbnail: "/uploads/copie-de-5-dysfunctions-large.png"
