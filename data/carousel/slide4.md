@@ -1,7 +1,7 @@
 ---
 title: Cultivez les valeurs humaines
-subtitle: Pour un climat de travail ou les employés se sentent bien et peuvent déployer
-  le meilleur d'eux-mêmes
+subtitle: Pour un climat de travail dans lequel les employés se sentent bien et peuvent
+  déployer le meilleur d'eux-mêmes
 backgroundImg: "/uploads/escalade.jpg"
 buttonText: Contactez moi pour explorer mon approche
 buttonLink: https://nancybilodeau.com/contact
