@@ -1,7 +1,7 @@
 ---
 order: 7
 id: ''
-title: Mastering Energy
+title: MasteringEnergy
 thumbnail: "/uploads/energie-2.png"
 link: ''
 
