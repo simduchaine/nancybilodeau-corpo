@@ -1,6 +1,8 @@
 ---
 title: Change management
 id: change-management
-thumbnail: "/uploads/AdobeStock_155559301.jpeg"
+thumbnail: "/uploads/gestion-du-changement-large.png"
 link: "#"
+order: 6
+
 ---
