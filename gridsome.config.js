@@ -112,7 +112,11 @@ module.exports = {
         resolveAbsolutePaths: true,
         remark: {
           plugins: [
-            // ...local plugins
+            [
+              "gridsome-plugin-remark-youtube",
+              ,
+              { width: "500px", align: "auto" },
+            ],
           ],
         },
       },
@@ -186,7 +190,15 @@ module.exports = {
         path: "data_en/pages/**/*.md",
         typeName: "PageContentEn",
         resolveAbsolutePaths: true,
-        //route: "/en/:slug",
+        remark: {
+          plugins: [
+            [
+              "gridsome-plugin-remark-youtube",
+              ,
+              { width: "500px", align: "auto" },
+            ],
+          ],
+        },
       },
     },
     {
@@ -209,6 +221,15 @@ module.exports = {
         path: "data_en/home/**/*.md",
         typeName: "homeEn",
         resolveAbsolutePaths: true,
+        remark: {
+          plugins: [
+            [
+              "gridsome-plugin-remark-youtube",
+              ,
+              { width: "500px", align: "auto" },
+            ],
+          ],
+        },
       },
     },
     {
