@@ -235,6 +235,19 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        path: "data_en/carousel/**/*.md",
+        typeName: "carouselEn",
+        resolveAbsolutePaths: true,
+        remark: {
+          plugins: [
+            //require("remark-attr")
+          ],
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         path: "data_en/training/**/*.md",
         typeName: "training",
         resolveAbsolutePaths: true,

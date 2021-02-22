@@ -8,94 +8,22 @@
         :autoplaySpeed="5000"
         :arrows="true"
       >
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/nancy-corpo-2.jpg" />
+       
+       <div v-for="slide in $page.slides.edges" :key="slide.node.id">
+          <g-image class="hero-background is-transparent" :src="slide.node.backgroundImg" />
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-size-2">Meet Your Health & Happiness Guide</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >Because there is no limit to performance when people are healthy and happy</h2>
-              <a
-                href="https://nancybilodeau.com/en/about"
-                class="button"
-              >Find out more about me</a>
+              <h1 class="title is-size-2">{{ slide.node.title }}</h1>
+              <h2 class="title is-size-3 is-family-primary">{{ slide.node.subtitle }}</h2>
+              <a :href="slide.node.buttonLink" class="button">
+                {{
+                slide.node.buttonText
+                }}
+              </a>
             </div>
           </div>
         </div>
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/team.jpg" />
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-2">Get your team more than engaged</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >Get them to lead the way to where you want to go</h2>
-              <a
-                href="https://nancybilodeau.com/en/services"
-                class="button"
-              >Discover my Consulting Services</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/velo-guy.jpg" />
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-2">Create a culture of Health and Happiness</h1>
-              <h2 class="title is-size-3 is-family-primary">When they know you care, they care!!!!</h2>
-              <a
-                href="https://cours.nancybilodeau.com/programmemieuxetre"
-                class="button"
-              >Ask for my Wellness at Work Training Program</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/escalade.jpg" />
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-2">Nurture human values</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >So that your people are at ease and can contribute their best talents</h2>
-              <a
-                href="https://cours.nancybilodeau.com/officewellnessrescue"
-                class="button"
-              >Help your employees with COVID-19</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/zipline.jpg" />
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-2">Help your people to find their balance</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >So that they can reach their full potential</h2>
-              <a
-                href="https://nancybilodeau.com/en/contact"
-                class="button"
-              >Contact me to find out my approach</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <g-image class="hero-background is-transparent" src="../../../uploads/heart-dark.jpeg" />
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-size-2">Lead with the heart’s intelligence</h1>
-              <h2
-                class="title is-size-3 is-family-primary"
-              >Move beyond traditional management to coaching for greatness</h2>
-              <a
-                href="https://www.linkedin.com/pulse/quest-ce-que-la-cohérence-cardiaque-nancy-bilodeau-mba/"
-                class="button"
-              >Learn more about Heart Coherence</a>
-            </div>
-          </div>
-        </div>
+        
       </VueSlickCarousel>
     </section>
 
@@ -119,6 +47,24 @@
     </section>
   </Enhome>
 </template>
+
+<page-query>
+query CarouselEn {
+ slides: allcarouselEn {
+    edges {
+      node {
+        title
+        subtitle
+        path
+        backgroundImg (quality: 100)
+        buttonText
+        buttonLink
+        id
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 import lead from "~/components/en/home/Lead.vue";
@@ -149,7 +95,7 @@ export default {
     consultation,
     missionVision,
     Magnet,
-    VueSlickCarousel,
+    VueSlickCarousel
   },
 };
 </script>
