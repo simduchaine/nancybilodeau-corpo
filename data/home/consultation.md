@@ -13,5 +13,5 @@ Découvrez en plus sur mes services en écoutant mon entrevue du 19 janvier 2021
 ![](/uploads/logo-png.webp)
 
 <audio controls>  
-<source src="/static/audio/cjmd.m4a" type="audio/mpeg">  
+<source src="/audio/cjmd.m4a" type="audio/mpeg">  
 </audio>
