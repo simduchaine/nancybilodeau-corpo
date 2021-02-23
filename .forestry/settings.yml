@@ -64,6 +64,13 @@ sections:
   label: Home
   create: all
   match: "**/*"
+- type: directory
+  path: data_en/carousel
+  label: Carousel
+  create: all
+  match: "**/*"
+  templates:
+  - carousel
 - type: document
   path: data_en/pages/services.md
   label: Services
