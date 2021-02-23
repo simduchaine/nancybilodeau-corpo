@@ -1,7 +1,7 @@
 ---
 title: Consultation en ligne
-
 ---
+
 Les rencontres peuvent se faire en personne ou sur vidéo conférence via Zoom, Skype ou FaceTime.
 
 <a class="button" href="https://www.gorendezvous.com/homepage/111690" target="_blank">Prendre rendez-vous</a>
@@ -13,5 +13,5 @@ Découvrez en plus sur mes services en écoutant mon entrevue du 19 janvier 2021
 ![](/uploads/logo-png.webp)
 
 <audio controls>  
-<source src="uploads/cjmd.m4a" type="audio/mpeg">  
+<source src="/static/audio/cjmd.m4a" type="audio/mpeg">  
 </audio>
