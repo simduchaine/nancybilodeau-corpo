@@ -53,7 +53,7 @@
             </div>
             <div>
               <font-awesome :icon="['fa', 'envelope']" class="contact-icon" />
-              <a href="mailto:nancybilodeau@ymail.com">nancybilodeau@ymail.com</a>
+              <a href="mailto:nancy@nancybilodeau.com">nancy@nancybilodeau.com</a>
             </div>
             <div>
               <a
