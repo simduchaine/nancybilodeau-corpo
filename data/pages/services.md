@@ -18,7 +18,8 @@ Mes dernières années dans le monde de la santé holistique me permettent d’o
 * Promotion d'une saine alimentation
 * Élaboration de menu santé pour les cafétérias
 * Introduction à la méditation et au yoga
-* Cours d'alimentation vivante
+* [Plusieurs cours visant la prévention]()
+* [Des conférences motivantes pour prendre soin de soi](https://nancybilodeau.com/conference)
 
 Mes spécialités traditionnelles d’affaires sont :
 
@@ -26,7 +27,7 @@ Mes spécialités traditionnelles d’affaires sont :
 * La gestion de portefeuille et l’implantation de meilleures pratiques
 * La gestion du changement et le support aux grandes transformations
 * La gestion et l’amélioration des processus d’affaires
-* L’implantation de centres d’excellence en gestion de projet, de processus et d’intelligence d’affaires
+* L’implantation de centres d’excellence en gestion de projet et de processus 
 
 [Prendre rendez-vous >](https://www.gorendezvous.com/homepage/111690)
 
