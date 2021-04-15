@@ -23,6 +23,7 @@
             </h2>
           </div>
         </div>
+        <hr />
         <p>
           Pour plus de références, accédez à mon profile sur LinkedIn :
           <a href="https://www.linkedin.com/in/nancybilodeau/"
