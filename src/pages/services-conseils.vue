@@ -6,13 +6,21 @@
       <div class="container" style="padding: 3rem 0;">
         <h1 class="title is-size-5">Références</h1>
         <hr />
-        <div v-for="reference in $page.linkedin.edges" :key="reference.node.id">
-          <div style="margin-bottom:3rem">
+        <div v-for="reference in $page.linkedin.edges" :key="reference.node.id" class="media">
+          <div class="media-left">
+            <figure class="image is-128x128">
+              <g-image class="is-rounded" :src="reference.node.photo"></g-image>
+            </figure>
+          </div>
+
+          <div class="media-content">
             <div v-html="reference.node.content"></div>
             <h2 class="title is-size-6 is-family-primary">
-              {{ reference.node.title }}, {{ reference.node.company }}
+              {{ reference.node.title }}
+              <span
+                v-if="reference.node.company"
+              >, {{ reference.node.company }}</span>
             </h2>
-            <hr />
           </div>
         </div>
         <p>
@@ -34,6 +42,7 @@ query {
         title
         company
         content
+        photo
       }
     }
   }
