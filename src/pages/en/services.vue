@@ -43,6 +43,7 @@ query {
         title
         company
         content
+        photo
       }
     }
   }
