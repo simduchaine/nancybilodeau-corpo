@@ -1,7 +1,7 @@
 ---
 id: bio
 title: À propos de moi
-thumbnail: "/uploads/_MG_1903-3.jpg"
+thumbnail: "/uploads/fd20eb14-d5cf-47bc-826c-949dd7fda97d.jpeg"
 cv_link: "/uploads/Bilodeau_Nancy_CV_Court.pdf"
 meta_title: À propos de Nancy Bilodeau
 meta_description: '25 ans d’expérience en transformation organisationnelle et amélioration
