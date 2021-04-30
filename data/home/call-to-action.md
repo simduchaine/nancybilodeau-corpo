@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/capture-d-ecran-le-2021-04-30-a-18-28-54.png"
-title: S'aligner pour atteindre une performance optimale
+title: Lorsque la santé et le mieux-être sont au service de la performance
 meta_title: ''
 meta_description: ''
 
