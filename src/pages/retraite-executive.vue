@@ -3,7 +3,7 @@
     <div style="margin-top:-3rem">
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('https://images.unsplash.com/photo-1535919020263-f79f5313f336?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');"
+        style="background-image: url('https://images.unsplash.com/photo-1535919020263-f79f5313f336');"
       >
         <div class="hero-body">
           <h1 class="has-text-centered title is-family-primary is-size-2">
@@ -46,7 +46,7 @@
 
       <div
         class="parallax-effect hero is-medium"
-        style="background-image: url('https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80'); "
+        style="background-image: url('https://images.unsplash.com/photo-1489533119213-66a5cd877091'); "
       >
         <div class="hero-body">
           <h2 class="has-text-centered title">Durée 2 à 7 jours</h2>
