@@ -1,7 +1,7 @@
 ---
 id: services
 title: Services conseils
-thumbnail: "/uploads/Capture d’écran 2019-08-27 à 12.40.16.png"
+thumbnail: "/uploads/services-conseils-corpo.jpg"
 meta_description: Évaluation des obstacles à la performance et au mieux-être en entreprise.
   Établissement de plan d’action pour atteindre vos objectifs de performance.
 meta_title: Service-conseil en amélioration de la performance au travail
