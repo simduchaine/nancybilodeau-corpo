@@ -23,6 +23,7 @@
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
             <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
+            <g-link class="navbar-item" to="/retraite-executive">Retraite Exécutive</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
             <g-link class="navbar-item" to="/conference">Conférences</g-link>
             <g-link class="navbar-item" to="/blogue">Blogue</g-link>
