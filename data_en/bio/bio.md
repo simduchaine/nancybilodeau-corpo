@@ -1,10 +1,12 @@
 ---
 id: bio
 title: About me
-thumbnail: "/uploads/_MG_1903-3.jpg"
+thumbnail: "/uploads/fd20eb14-d5cf-47bc-826c-949dd7fda97d.jpeg"
 cv_link: "/uploads/Bilodeau_Nancy_CV_Court.pdf"
----
+meta_title: ''
+meta_description: ''
 
+---
 Entrepreneur and highly effective team leader with 25+ years of experience in Organizational Transformation, Project, Program and Portfolio Management, Business Process Improvement (BPI) and Management (BPM), Customer Relationship Management (CRM) and other System Implementation, across industries. Dynamic, visionary, thought leader with proven ability to deal with complex situations, build high performance team, drive execution and deliver lasting results.
 
 Born in Quebec, with a Bachelor in Business Administration of [l’Université de Sherbrooke](https://www.usherbrooke.ca/) and an MBA of [Keller Graduate School](https://www.keller.edu/) of Management, I leaved 12 years in the United States and worked across multiple industries for small, medium and large enterprises.
