@@ -1,7 +1,9 @@
 ---
 id: services
 title: Services
-thumbnail: "/uploads/Capture d’écran 2019-08-27 à 12.40.16.png"
+thumbnail: "/uploads/services-conseils-corpo.jpg"
+meta_title: ''
+meta_description: ''
 
 ---
 My expertise’s are:
