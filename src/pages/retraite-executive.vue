@@ -26,10 +26,10 @@
               l’offre de retraite exécutive où l’on combine santé, mieux-être et
               affaires!
             </p>
+            <g-image src="../../uploads/moins-de-40.png" />
             <p>
-              Moins de 40 % des employés au monde sont investis dans leur
-              travail (Sondage Gallup). Montrez-leur qu’ils sont importants pour
-              vous et ils vous le rendront!
+              Montrez-leur qu’ils sont importants pour vous et ils vous le
+              rendront!
             </p>
             <p>
               Riche de mon expérience de fondatrice et gestionnaire du Centre
@@ -45,11 +45,13 @@
       </div>
 
       <div
-        class="parallax-effect hero is-medium"
+        class="parallax-effect hero is-medium is-dark"
         style="background-image: url('https://images.unsplash.com/photo-1489533119213-66a5cd877091'); "
       >
         <div class="hero-body">
-          <h2 class="has-text-centered title">Durée 2 à 7 jours</h2>
+          <h2 class="has-text-centered title is-family-primary is-size-2">
+            Durée 2 à 7 jours
+          </h2>
         </div>
       </div>
 
@@ -174,70 +176,66 @@
           <div class="columns">
             <div class="column">
               <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Monastère des Augustines
+                <a href="https://monastere.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../uploads/monastere-augustines.png" />
+                    </figure>
                   </div>
-                </div>
+                  <div class="card-content">
+                    <div class="content">
+                      Monastère des Augustines
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="column">
               <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Spa Eastman
+                <a href="https://www.spa-eastman.com/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../uploads/spa-eastman.png" />
+                    </figure>
                   </div>
-                </div>
+                  <div class="card-content">
+                    <div class="content">
+                      Spa Eastman
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="column">
               <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Couvent Val Morin
+                <a href="https://www.lecouventvalmorin.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../uploads/couvent-val-morin.png" />
+                    </figure>
                   </div>
-                </div>
+                  <div class="card-content">
+                    <div class="content">
+                      Couvent Val Morin
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="column">
               <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Centre Kio-o
+                <a href="https://kio-o.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../uploads/CentreKio.png" />
+                    </figure>
                   </div>
-                </div>
+                  <div class="card-content">
+                    <div class="content">
+                      Centre Kio-o
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -251,11 +249,13 @@
       </div>
 
       <div
-        class="parallax-effect hero is-medium"
-        style="background-image: url('https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1409&q=80'); "
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('/img/retraite-repas.png'); "
       >
         <div class="hero-body">
-          <h2 class="has-text-centered title">Repas inclus</h2>
+          <h2 class="has-text-centered title is-family-primary is-size-2">
+            Repas inclus
+          </h2>
         </div>
       </div>
 
@@ -341,6 +341,15 @@
             </div>
           </VueSlickCarousel>
         </div>
+      </div>
+
+      <div
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('https://images.unsplash.com/photo-1619896132143-2c1788704029?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80'); "
+      >
+        <!-- <div class="hero-body">
+          <h2 class="has-text-centered title">Repas inclus</h2>
+        </div> -->
       </div>
 
       <div class="section">
@@ -453,5 +462,10 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.slick-slider {
+  .card {
+    box-shadow: none;
+  }
 }
 </style>
