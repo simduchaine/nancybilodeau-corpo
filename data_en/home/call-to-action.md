@@ -1,6 +1,8 @@
 ---
-thumbnail: "/uploads/architectural-design-architecture-blue-302831.jpg"
-title: Align to achieve optimal performance
+thumbnail: "/uploads/capture-d-ecran-le-2021-05-04-a-09-27-00.png"
+title: Health & Happiness are powerful performance drivers
+meta_title: ''
+meta_description: ''
 
 ---
 <a class="button" href="https://www.gorendezvous.com/homepage/111690" target="_blank">Make an appointment</a><span class="self_center">or <a href="tel:+14189559602">call me</a></span>
