@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/stats-engl-petit.jpg"
+thumbnail: "/uploads/capture-d-ecran-le-2021-05-06-a-14-41-05.png"
 title: Health & Happiness are powerful performance drivers
 meta_title: ''
 meta_description: ''
