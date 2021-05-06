@@ -2,11 +2,11 @@
   <Layout>
     <div style="margin-top:-3rem">
       <div
-        class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('https://images.unsplash.com/photo-1535919020263-f79f5313f336');"
+        class="parallax-effect hero is-medium"
+        style="background-image: url('/img/Retraite.png'); "
       >
         <div class="hero-body">
-          <h1 class="has-text-centered title is-family-primary is-size-2">
+          <h1 class="has-text-centered title is-family-primary is-size-2 ">
             Quand le ressourcement prend soin des affaires
           </h1>
         </div>
@@ -45,13 +45,14 @@
       </div>
 
       <div
-        class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('https://images.unsplash.com/photo-1489533119213-66a5cd877091'); "
+        class="parallax-effect hero is-medium"
+        style="background-image: url('/img/duree.png'); "
       >
-        <div class="hero-body">
-          <h2 class="has-text-centered title is-family-primary is-size-2">
+        <div class="hero-body has-text-centered">
+          <h2 class=" title is-family-primary is-size-2 ">
             Durée 2 à 7 jours
           </h2>
+          <h3 class="title">Selon vos besoins et votre budget</h3>
         </div>
       </div>
 
@@ -78,65 +79,94 @@
             :dots="false"
             :arrows="false"
             :autoplay="true"
-            :autoplaySpeed="4000"
+            :autoplaySpeed="5000"
             :speed="2000"
             :infinite="true"
             :slidesToShow="3"
             :slidesToScroll="3"
           >
             <div class="card">
-              <div class="card-content">
-                Le travail d’équipe
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Travail-d-equipe.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                L’amélioration des communications
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Performance.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La gestion de conflits
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Gestion-de-conflit.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La gestion de la performance
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Planification.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                Les 5 dysfonctions d’une équipe
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Priorisation.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La gestion du changement
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Communications.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La planification stratégique à l’ère d’aujourd’hui
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Transformation.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La planification d’un projet
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/5-dysfunctions.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La priorisation des activités
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Restructuration.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La définition d’objectifs communs
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Reorganisation.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                Les restructurations d’équipe
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Gestion-de-conflit.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Changement.png" />
+                </figure>
               </div>
             </div>
           </VueSlickCarousel>
@@ -148,22 +178,7 @@
           <p>
             Les activités de mieux-être régulièrement incorporées sont :
           </p>
-          <ul>
-            <li>La méditation</li>
-            <li>La pleine conscience (MBSR)</li>
-            <li>La visualisation</li>
-            <li>La cohérence cardiaque</li>
-            <li>Diverses techniques de respiration</li>
-            <li>
-              Des activités physiques variées selon le groupe : yoga, marche en
-              plein air, etc.
-            </li>
-            <li>
-              Des jeux divers pour garder le groupe éveillé et partager certains
-              enseignements de façon plus ludique
-            </li>
-            <li>La préparation de repas santé</li>
-          </ul>
+          <g-image src="../../uploads/activites-mieux-etre.png" />
         </div>
       </div>
 
@@ -182,11 +197,6 @@
                       <g-image src="../../uploads/monastere-augustines.png" />
                     </figure>
                   </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Monastère des Augustines
-                    </div>
-                  </div>
                 </a>
               </div>
             </div>
@@ -197,11 +207,6 @@
                     <figure class="image is-4by3">
                       <g-image src="../../uploads/spa-eastman.png" />
                     </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Spa Eastman
-                    </div>
                   </div>
                 </a>
               </div>
@@ -214,11 +219,6 @@
                       <g-image src="../../uploads/couvent-val-morin.png" />
                     </figure>
                   </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Couvent Val Morin
-                    </div>
-                  </div>
                 </a>
               </div>
             </div>
@@ -229,11 +229,6 @@
                     <figure class="image is-4by3">
                       <g-image src="../../uploads/CentreKio.png" />
                     </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Centre Kio-o
-                    </div>
                   </div>
                 </a>
               </div>
@@ -249,7 +244,7 @@
       </div>
 
       <div
-        class="parallax-effect hero is-medium is-dark"
+        class="parallax-effect hero is-medium"
         style="background-image: url('/img/retraite-repas.png'); "
       >
         <div class="hero-body">
@@ -272,6 +267,17 @@
         </div>
       </div>
 
+      <div
+        class="parallax-effect hero is-medium"
+        style="background-image: url('/img/bienfaits.png'); "
+      >
+        <div class="hero-body">
+          <h2 class="has-text-centered title is-family-primary is-size-2">
+            Les bienfaits
+          </h2>
+        </div>
+      </div>
+
       <div class="section has-background-info">
         <div class="container">
           <p>
@@ -290,53 +296,73 @@
             :slidesToScroll="3"
           >
             <div class="card">
-              <div class="card-content">
-                L’esprit et les pensées
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/pensees.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                Les émotions
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/emotions.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                Le stress
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Stress-icone.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                L’alimentation
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Alimentation.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                L’exercice
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Exercice.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                Le sommeil
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/Sommeil.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                L’environnement
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/environnement.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La cohérence
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/relations.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                La résilience
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/resilience.png" />
+                </figure>
               </div>
             </div>
             <div class="card">
-              <div class="card-content">
-                L’énergie
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../uploads/energie.png" />
+                </figure>
               </div>
             </div>
           </VueSlickCarousel>
@@ -345,7 +371,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('https://images.unsplash.com/photo-1619896132143-2c1788704029?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80'); "
+        style="background-image: url('/img/grand-maitre.png'); "
       >
         <!-- <div class="hero-body">
           <h2 class="has-text-centered title">Repas inclus</h2>
@@ -377,16 +403,8 @@
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
+                    <g-image src="../../uploads/Formation-Corporative-2.png" />
                   </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Formation Corpo
-                  </div>
                 </div>
               </div>
             </div>
@@ -394,16 +412,8 @@
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
+                    <g-image src="../../uploads/conferences-corporatives.png" />
                   </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Conférence Corpo
-                  </div>
                 </div>
               </div>
             </div>
@@ -411,25 +421,15 @@
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image"
-                    />
+                    <g-image src="../../uploads/formations-individu.png" />
                   </figure>
-                </div>
-                <div class="card-content">
-                  <div class="content">
-                    Formation Perso
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <p>
-            Seulement 42 % des employés sont heureux de la reconnaissance reçue
-            par leur employeur (Sondage Gallup).
-          </p>
-          <p>
+          <g-image src="../../uploads/seulement-42-pourcent.png" />
+
+          <p class="has-text-centered">
             Montrez-leur votre appréciation et offrez-leur une expérience unique
             qui les aidera dans toutes les sphères de leur vie.
           </p>
@@ -457,11 +457,25 @@ export default {
 
 <style scoped lang="scss">
 .parallax-effect {
+  position: relative;
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+.title {
+  color: #004369;
+  position: relative;
 }
 .slick-slider {
   .card {
