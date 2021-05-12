@@ -11,8 +11,9 @@ J’offre un service complet d’évaluation des obstacles à la performance et 
 
 Mes dernières années dans le monde de la santé holistique me permettent d’offrir des formations et services innovateurs tel:
 
-* Élaboration de programme de mieux-être, [cliquez ici ](https://cours.nancybilodeau.com/programmemieuxetre)pour en savoir plus
+* Élaboration de[ programme de mieux-être](https://cours.nancybilodeau.com/programmemieuxetre)
 * Développement de culture dynamique et responsable
+* Coaching exécutif, certifiée de la [SICPNL]()
 * Techniques de gestion du stress
 * Enseignement de la cohérence cardiaque
 * Promotion d'une saine alimentation
@@ -27,7 +28,7 @@ Mes spécialités traditionnelles d’affaires sont :
 * La gestion de portefeuille et l’implantation de meilleures pratiques
 * La gestion du changement et le support aux grandes transformations
 * La gestion et l’amélioration des processus d’affaires
-* L’implantation de centres d’excellence en gestion de projet et de processus 
+* L’implantation de centres d’excellence en gestion de projet et de processus
 
 [Prendre rendez-vous >](https://www.gorendezvous.com/homepage/111690)
 

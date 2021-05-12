@@ -24,5 +24,6 @@ Finally, my years in the holistic health arena are allowing me to offer the foll
 * Executive Team Coaching
 * Stress Management
 * Heart Coherence Introduction
+* Wellbeing program
 
 [Make an appointment >](https://www.gorendezvous.com/homepage/111690)
