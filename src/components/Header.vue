@@ -1,6 +1,10 @@
 <template>
   <header class="header">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="container is-fluid">
         <div class="navbar-brand">
           <g-link to="/" class="navbar-item">
@@ -22,7 +26,10 @@
 
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
-            <g-link class="navbar-item" to="/services-conseils">Services Conseils</g-link>
+            <g-link class="navbar-item" to="/services-conseils"
+              >Services Conseils</g-link
+            >
+            <g-link class="navbar-item" to="/retraites">Retraites</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>
             <g-link class="navbar-item" to="/conference">Conférences</g-link>
             <g-link class="navbar-item" to="/blogue">Blogue</g-link>
@@ -34,7 +41,9 @@
               </a>
             </div>
             <div class="navbar-item brands">
-              <a href="https://www.youtube.com/channel/UCel4Y254TeW2NpNyw37RTcA">
+              <a
+                href="https://www.youtube.com/channel/UCel4Y254TeW2NpNyw37RTcA"
+              >
                 <font-awesome :icon="['fab', 'youtube']" size="xs" />
               </a>
             </div>
@@ -43,7 +52,9 @@
                 <font-awesome :icon="['fab', 'linkedin-in']" size="xs" />
               </a>
             </div>
-            <g-link class="navbar-item" style="color:#004369" to="/en/">En</g-link>
+            <g-link class="navbar-item" style="color:#004369" to="/en/"
+              >En</g-link
+            >
           </div>
         </div>
       </div>
@@ -85,7 +96,7 @@ export default {
     // Check if there are any navbar burgers
     if ($navbarBurgers.length > 0) {
       // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
+      $navbarBurgers.forEach((el) => {
         el.addEventListener("click", () => {
           // Get the target from the "data-target" attribute
           const target = el.dataset.target;
@@ -96,7 +107,7 @@ export default {
         });
       });
     }
-  }
+  },
 };
 </script>
 
@@ -133,4 +144,3 @@ export default {
   }
 }
 </style>
-
