@@ -26,7 +26,10 @@
               l’offre de retraite exécutive où l’on combine santé, mieux-être et
               affaires!
             </p>
-            <g-image src="../../uploads/moins-de-40.png" />
+            <g-image
+              src="../../uploads/moins-de-40.png"
+              style="padding-bottom:2em"
+            />
 
             <p>
               Riche de mon expérience de fondatrice et gestionnaire du Centre
@@ -364,7 +367,7 @@
               </ul>
             </li>
           </ul>
-
+          <h3 class="title is-size-5">Références</h3>
           <hr />
           <div class="media">
             <div class="media-left">
@@ -418,13 +421,15 @@
                 </p>
               </div>
               <h2 class="title is-size-6 is-family-primary">
-                Jimmy
+                Jimmy Chabot
                 <span>, Kerry</span>
               </h2>
             </div>
           </div>
-          <hr />
-          <h4 class="title is-size-6">Contactez-moi pour en savoir plus!</h4>
+          <g-image
+            src="../../uploads/seulement-42-pourcent.png"
+            style="padding-top: 2em"
+          />
         </div>
       </div>
 
@@ -587,11 +592,12 @@
               </a>
             </div>
           </div>
-          <g-image src="../../uploads/seulement-42-pourcent.png" />
 
-          <p>
-            Contactez-moi pour en savoir plus!
-          </p>
+          <h2 class="title is-size-6">
+            Vous aimeriez avoir plus d’information ou une soumission?
+          </h2>
+
+          <a class="button" href="/contact" target="_self">Contactez-moi</a>
         </div>
       </div>
     </div>
@@ -605,7 +611,7 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
   metaInfo: {
-    title: "Retraite Exécutive",
+    title: "Retraites",
   },
   components: { VueSlickCarousel },
 };
