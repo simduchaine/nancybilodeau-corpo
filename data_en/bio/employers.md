@@ -6,19 +6,19 @@ compagnies:
   logo: ''
 - title: SAAQ, Canada
   logo: ''
-- title: Cams, US
+- title: Camso, US
   logo: ''
 - title: Phytimpact, Canada
   logo: ''
 - title: La Capitale Insurance and Financial Services, Canada
   logo: ''
-- title: Familiprix
+- title: Familiprix, Canada
   logo: ''
-- title: Ville de Québec
+- title: Ville de Québec, Canada
   logo: ''
-- title: Le Monastère des Augustines
+- title: Le Monastère des Augustines, Canada
   logo: ''
-- title: Eastman Spa
+- title: Eastman Spa, Canada
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
