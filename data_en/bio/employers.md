@@ -1,8 +1,8 @@
 ---
 id: employers
-title: Clients & Employers
+title: Clients, Employers and Collaborators
 compagnies:
-- title: Ville de Québec
+- title: Spa Eastman
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
@@ -11,6 +11,8 @@ compagnies:
 - title: La Capitale Insurance and Financial Services
   logo: ''
 - title: Familiprix
+  logo: ''
+- title: Ville de Québec
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
