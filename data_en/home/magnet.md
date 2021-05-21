@@ -1,5 +1,6 @@
 ---
-title: Company performance is the sum of the performance of its employees multiplied by their synergy
----
+title: A company's performance is equal to its employees' performance multiplied by
+  their synergy
 
-Sign up to discover the key elements of a wellness program that will help your employees surpass themselves
+---
+Sign up to discover the key elements of a good wellness program that will help your employees thrive
