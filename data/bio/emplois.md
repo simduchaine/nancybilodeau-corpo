@@ -2,11 +2,11 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
-- title: Camso, US
-  logo: ''
 - title: Kerry, US & Canada
   logo: ''
 - title: SAAQ, Canada
+  logo: ''
+- title: Camso, US
   logo: ''
 - title: Phytimpact, Canada
   logo: ''
