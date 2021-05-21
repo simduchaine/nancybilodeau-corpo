@@ -10,15 +10,15 @@ compagnies:
   logo: ''
 - title: Phytimpact, Canada
   logo: ''
-- title: La Capitale Insurance and Financial Services, Canada
-  logo: ''
-- title: Familiprix, Canada
-  logo: ''
-- title: Ville de Québec, Canada
-  logo: ''
 - title: Le Monastère des Augustines, Canada
   logo: ''
 - title: Eastman Spa, Canada
+  logo: ''
+- title: Ville de Québec, Canada
+  logo: ''
+- title: La Capitale Insurance and Financial Services, Canada
+  logo: ''
+- title: Familiprix, Canada
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
