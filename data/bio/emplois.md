@@ -2,17 +2,19 @@
 id: emplois
 title: Clients, Employeurs & Collaborateurs
 compagnies:
-- title: Ville de Québec, Canada
-  logo: ''
-- title: SAAQ, Canada
+- title: Camso, US
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
+- title: SAAQ, Canada
+  logo: ''
 - title: Phytimpact, Canada
   logo: ''
-- title: Manoir des Augustines, Canada
+- title: Le Monastère des Augustines, Canada
   logo: ''
 - title: Spa Eastman, Canada
+  logo: ''
+- title: Ville de Québec, Canada
   logo: ''
 - title: La Capitale Groupe Financier Inc., Canada
   logo: ''
