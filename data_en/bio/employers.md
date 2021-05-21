@@ -2,13 +2,15 @@
 id: employers
 title: Clients & Employers
 compagnies:
-- title: Familiprix
+- title: Ville de Québec
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: La Capitale Insurance and Financial Services
+  logo: ''
+- title: Familiprix
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
