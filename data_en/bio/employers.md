@@ -2,7 +2,7 @@
 id: employers
 title: Clients, Employers and Collaborators
 compagnies:
-- title: Le Monastère des Augustines
+- title: Phytimpact, Canada
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
@@ -14,7 +14,9 @@ compagnies:
   logo: ''
 - title: Ville de Québec
   logo: ''
-- title: Spa Eastman
+- title: Le Monastère des Augustines
+  logo: ''
+- title: Eastman Spa
   logo: ''
 - title: Royal Trust, Canada
   logo: ''
