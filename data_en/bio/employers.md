@@ -2,11 +2,13 @@
 id: employers
 title: Clients, Employers and Collaborators
 compagnies:
-- title: Phytimpact, Canada
+- title: Camso
   logo: ''
 - title: Kerry, US & Canada
   logo: ''
 - title: SAAQ, Canada
+  logo: ''
+- title: Phytimpact, Canada
   logo: ''
 - title: La Capitale Insurance and Financial Services
   logo: ''
