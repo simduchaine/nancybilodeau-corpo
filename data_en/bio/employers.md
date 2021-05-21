@@ -2,15 +2,15 @@
 id: employers
 title: Clients, Employers and Collaborators
 compagnies:
-- title: Camso
-  logo: ''
 - title: Kerry, US & Canada
   logo: ''
 - title: SAAQ, Canada
   logo: ''
+- title: Cams, US
+  logo: ''
 - title: Phytimpact, Canada
   logo: ''
-- title: La Capitale Insurance and Financial Services
+- title: La Capitale Insurance and Financial Services, Canada
   logo: ''
 - title: Familiprix
   logo: ''
