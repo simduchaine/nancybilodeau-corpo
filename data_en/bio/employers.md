@@ -2,6 +2,10 @@
 id: employers
 title: Clients & Employers
 compagnies:
+- title: La Capitale Insurance and Financial Services
+  logo: ''
+- title: Kerry, US & Canada
+  logo: ''
 - title: SAAQ, Canada
   logo: ''
 - title: Royal Trust, Canada
@@ -17,8 +21,6 @@ compagnies:
 - title: A&G Consulting, Canada
   logo: ''
 - title: Canadian Coast Guard, Canada
-  logo: ''
-- title: Kerry, US & Canada
   logo: ''
 - title: Sears Holdings Corporation, US
   logo: ''
