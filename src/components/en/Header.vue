@@ -1,6 +1,10 @@
 <template>
   <header class="header">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="container is-fluid">
         <div class="navbar-brand">
           <g-link to="/en/" class="navbar-item">
@@ -23,8 +27,11 @@
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
             <g-link class="navbar-item" to="/en/services">Services</g-link>
+            <g-link class="navbar-item" to="/en/retreat">Retreat</g-link>
             <g-link class="navbar-item" to="/en/training">Training</g-link>
-            <g-link class="navbar-item" to="/en/conferences">Conferences</g-link>
+            <g-link class="navbar-item" to="/en/conferences"
+              >Conferences</g-link
+            >
             <g-link class="navbar-item" to="/en/about">Bio</g-link>
             <g-link class="navbar-item" to="/en/contact">Contact</g-link>
             <div class="navbar-item brands">
@@ -33,7 +40,9 @@
               </a>
             </div>
             <div class="navbar-item brands">
-              <a href="https://www.youtube.com/channel/UCel4Y254TeW2NpNyw37RTcA">
+              <a
+                href="https://www.youtube.com/channel/UCel4Y254TeW2NpNyw37RTcA"
+              >
                 <font-awesome :icon="['fab', 'youtube']" size="xs" />
               </a>
             </div>
@@ -133,4 +142,3 @@ export default {
   }
 }
 </style>
-
