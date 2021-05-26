@@ -1,6 +1,6 @@
 ---
 title: Alexandre Fausse
-company: Camso
+company: Camso, Kerry
 photo: "/uploads/1617149643642.jpeg"
 
 ---
