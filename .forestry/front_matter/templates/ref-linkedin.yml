@@ -17,7 +17,9 @@ fields:
     maxSize: 64
   label: Photo
 pages:
+- data/linkedIn/alexandre-fausse.md
 - data/linkedIn/andre-amyot.md
 - data/linkedIn/cynthia-lapointe.md
 - data/linkedIn/john-kasinecz.md
+- data_en/linkedIn/alexandre-fausse.md
 - data_en/linkedIn/andre-amyot.md
