@@ -9,20 +9,22 @@
         :arrows="true"
       >
         <div v-for="slide in $page.slides.edges" :key="slide.node.id">
-          <g-image class="hero-background is-transparent" :src="slide.node.backgroundImg" />
+          <g-image
+            class="hero-background is-transparent"
+            :src="slide.node.backgroundImg"
+          />
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-size-2">{{ slide.node.title }}</h1>
-              <h2 class="title is-size-3 is-family-primary">{{ slide.node.subtitle }}</h2>
+              <h2 class="title is-size-3 is-family-primary">
+                {{ slide.node.subtitle }}
+              </h2>
               <a :href="slide.node.buttonLink" class="button">
-                {{
-                slide.node.buttonText
-                }}
+                {{ slide.node.buttonText }}
               </a>
             </div>
           </div>
         </div>
-
       </VueSlickCarousel>
     </section>
 
@@ -39,7 +41,10 @@
       <call-action></call-action>
     </section>
     <section id="main">
-      <main-content class="has-background-info lead-content" style="margin-top: -10px"></main-content>
+      <main-content
+        class="has-background-info lead-content"
+        style="margin-top: -10px"
+      ></main-content>
     </section>
     <section id="consultation">
       <consultation></consultation>
@@ -107,10 +112,15 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
   metaInfo: {
-    title: "Services conseils holistiques en entreprises et coaching individuel pour employés et gestionnaires",
-     meta: [
-      { name: 'description', content: "J'assiste les entreprises à atteindre leurs objectifs par l'établissement d'un milieu de travail vibrant où tous prennent soin de leur santé et de leur attitude en pleine conscience, pour apporter le meilleur d'eux même et contribuer au succès de l'entreprise." },
-    ]
+    title:
+      "Services conseils holistiques en entreprises et coaching individuel pour employés et gestionnaires",
+    meta: [
+      {
+        name: "description",
+        content:
+          "J'assiste les entreprises à atteindre leurs objectifs par l'établissement d'un milieu de travail vibrant où tous prennent soin de leur santé et de leur attitude en pleine conscience, pour apporter le meilleur d'eux même et contribuer au succès de l'entreprise.",
+      },
+    ],
   },
   components: {
     lead,
@@ -261,23 +271,6 @@ blockquote {
   }
 }
 
-.slick-arrow {
-  z-index: 999;
-}
-.slick-prev {
-  left: 20px;
-}
-.slick-next {
-  right: 20px;
-}
-.slick-slide {
-  position: relative;
-}
-
-.slick-dots {
-  bottom: 20px;
-}
-
 #carousel,
 #carouselEn {
   .button {
@@ -287,6 +280,23 @@ blockquote {
   .title {
     color: #004369;
     line-height: 0.9;
+  }
+
+  .slick-arrow {
+    z-index: 999;
+  }
+  .slick-prev {
+    left: 20px;
+  }
+  .slick-next {
+    right: 20px;
+  }
+  .slick-slide {
+    position: relative;
+  }
+
+  .slick-dots {
+    bottom: 20px;
   }
 }
 </style>

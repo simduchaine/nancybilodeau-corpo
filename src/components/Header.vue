@@ -27,7 +27,7 @@
         <div id="navbar" class="navbar-menu is-size-6">
           <div class="navbar-end">
             <g-link class="navbar-item" to="/services-conseils"
-              >Services Conseils</g-link
+              >Services</g-link
             >
             <g-link class="navbar-item" to="/retraites">Retraites</g-link>
             <g-link class="navbar-item" to="/formations">Formations</g-link>

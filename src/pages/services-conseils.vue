@@ -6,7 +6,11 @@
       <div class="container" style="padding: 3rem 0;">
         <h1 class="title is-size-5">Références</h1>
         <hr />
-        <div v-for="reference in $page.linkedin.edges" :key="reference.node.id" class="media">
+        <div
+          v-for="reference in $page.linkedin.edges"
+          :key="reference.node.id"
+          class="media"
+        >
           <div class="media-left">
             <figure class="image is-128x128">
               <g-image class="is-rounded" :src="reference.node.photo"></g-image>
@@ -17,9 +21,9 @@
             <div v-html="reference.node.content"></div>
             <h2 class="title is-size-6 is-family-primary">
               {{ reference.node.title }}
-              <span
-                v-if="reference.node.company"
-              >, {{ reference.node.company }}</span>
+              <span v-if="reference.node.company"
+                >, {{ reference.node.company }}</span
+              >
             </h2>
           </div>
         </div>
@@ -56,7 +60,7 @@ import mainContent from "../components/services/mainContent";
 
 export default {
   metaInfo: {
-    title: "Services conseils",
+    title: "Services",
   },
   components: {
     mainContent,

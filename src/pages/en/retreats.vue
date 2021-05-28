@@ -1,0 +1,645 @@
+<template>
+  <English-Layout>
+    <div style="margin-top:-3rem">
+      <div
+        class="parallax-effect top hero is-medium is-dark"
+        style="background-image: url('/img/Retraite.png'); "
+      >
+        <div class="hero-body">
+          <h1 class="has-text-centered title is-family-primary is-size-2 ">
+            When caring takes care of Business!
+          </h1>
+        </div>
+      </div>
+
+      <div class="section has-background-info">
+        <div class="container">
+          <div>
+            <p>
+              The health and balance of a company is directly linked to the one
+              of its managers. Healthy, well-rounded leaders create fun and
+              efficient workplaces.
+            </p>
+            <p>
+              At today's speed, leaders often lack the time to take care of
+              themselves. I am proud to be a pioneer in the Executive Retreat
+              space offering program that combines integrative health
+              experience, happiness, wellness and business!
+            </p>
+            <g-image
+              src="../../../uploads/ENG_moins-de-40.png"
+              style="padding-bottom:2em"
+            />
+
+            <p>
+              Rich in my experience as the founder and manager of the Om Prana
+              Holistic Center, I now combine my experiences as an entrepreneur,
+              consultant and MBA with that of developing and deploying
+              meditation, yoga, happiness and health retreats. I can also
+              incorporate coaching in heart coherence, healthy cooking, juicing
+              and more. All my retreats are tailor-made for your team specific
+              needs to address your most important business and wellbeing
+              objective.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('/img/duree.png'); "
+      >
+        <div class="hero-body has-text-centered">
+          <h2 class=" title is-family-primary is-size-2 ">
+            DURATION 2 to 7 days
+          </h2>
+          <h3 class="title">Based on your needs and budget</h3>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <p>
+            I have multiple tools for both business & wellness. You can provide
+            me with your objectives, the number of participants, the desired
+            duration, and your budget and I will design something for a unique
+            experience that will allow your leaders to relax, recharge, reset,
+            reboot and to deploy the best of themselves in solving the business
+            subjects at hand.
+          </p>
+        </div>
+      </div>
+
+      <div class="section has-background-info">
+        <div class="container">
+          <p>
+            The most popular business topics are:
+          </p>
+          <VueSlickCarousel
+            :dots="false"
+            :arrows="true"
+            :autoplay="true"
+            :autoplaySpeed="4000"
+            :speed="2000"
+            :infinite="true"
+            :slidesToShow="3"
+            :slidesToScroll="3"
+          >
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-travail-equipe.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-communication.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-gestion-conflit.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Performance.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/5-dysfunctions.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-changement.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-projet.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-priorisation.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-Objectif.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-restructuration.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/ENG-reorganisation.png" />
+                </figure>
+              </div>
+            </div>
+          </VueSlickCarousel>
+        </div>
+      </div>
+
+      <div class="section ">
+        <div class="container">
+          <p>
+            The most popular wellness activities are:
+          </p>
+          <g-image src="../../../uploads/ENG_activites-mieux-etre.png" />
+        </div>
+      </div>
+
+      <div class="section has-background-info">
+        <div class="container">
+          <p>
+            Retreats are taking place in well-selected location conductive to
+            change, transformation and rest. My favorite places in Quebec are:
+          </p>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <a href="https://monastere.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../../uploads/ENG_Monastere.png" />
+                    </figure>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <a href="https://www.spa-eastman.com/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../../uploads/ENG_Eastman.png" />
+                    </figure>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <a href="https://www.lecouventvalmorin.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../../uploads/ENG_Couvent.png" />
+                    </figure>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <a href="https://kio-o.ca/" target="_blank">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../../uploads/CentreKio.png" />
+                    </figure>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p>
+            I can also travel internationally to facilitate your retreat at
+            either a location of your choice or one that I can find for you. I
+            can also work closely with a travel agency to target the best
+            package for your group.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('/img/retraite-repas.png'); "
+      >
+        <div class="hero-body has-text-centered">
+          <h2 class=" title is-family-primary is-size-2">
+            Healthy Meal
+          </h2>
+          <h3 class="title">Simple or gastronomic, planned with care</h3>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <p>
+            I am taking care of all the details including the right foods. Meals
+            of high quality are served, preferably organic and alcohol-free to
+            promote presence, energy, rest and clarity of mind. The retreat is
+            meant to be a complete resourcing and rejuvenating experience. It's
+            a new way of working where you take care of your people as they take
+            care of business.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('/img/bienfaits.png'); "
+      >
+        <div class="hero-body">
+          <h2 class="has-text-centered title is-family-primary is-size-2">
+            The benefits
+          </h2>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <p>
+            It can be difficult on a day-to-day basis, and especially when
+            working from home, to develop team spirit, show appreciation and
+            strengthen the desired corporate culture. A change of scenery breaks
+            the routine and offers a unique opportunity to focus on specific
+            topics and see things differently while investing in the health and
+            well-being of your employees. The benefits generally looked for are:
+          </p>
+          <ul>
+            <li>Team spirit uplifted</li>
+            <li>Communications enhanced</li>
+            <li>Conflict resolution</li>
+            <li>Mobilization towards one or more goals</li>
+            <li>Increased creativity</li>
+            <li>Improve ego management</li>
+            <li>Appreciation demonstrated in a tangible way</li>
+            <li>
+              Staff inspired to take care of themselves to offer the best of
+              themselves
+            </li>
+            <li>Improved feeling of belonging to the company</li>
+            <li>
+              Increased adaptability in a changing world
+            </li>
+            <li>Overcoming the 5 dysfunctions of a team</li>
+            <li>
+              Restoration of pleasant working atmosphere
+            </li>
+            <li>Real Leaders transformation</li>
+            <li>Performance BOOST</li>
+            <li>RESET!</li>
+          </ul>
+          <p>
+            More can be accomplished in two well-structured days than in hours
+            of meeting in the office where everyone continues to operate
+            according to the same principles and paradigms that led to the
+            current results.
+          </p>
+          <h3 class="title is-size-6">Executive Retreat Sample</h3>
+          <ul>
+            <li>Client : Kerry Ste-Claire factory</li>
+            <li>Number of participants: 10</li>
+            <li>Duration: 2 nights, 2 days</li>
+            <li>Location: Le Monastère des Augustines</li>
+            <li>Theme: Team Upgrade!</li>
+            <li>
+              Meal: Healthy breakfast, lunch and dinner served by Le Monastère.
+            </li>
+            <li>
+              Objectives:
+              <ul>
+                <li>Communicate sincere appreciation.</li>
+                <li>Recognize the continuously changing reality.</li>
+                <li>
+                  Take a moment to stop and reflect on the essentials for team
+                  success.
+                </li>
+                <li>
+                  Align the project portfolio with the annual objectives.
+                </li>
+                <li>
+                  Improve communication and exchanges between team members.
+                </li>
+                <li>
+                  Find effective ways to stay aligned throughout the year.
+                </li>
+                <li>
+                  Develop a sense of belonging to the factory beyond supervision
+                  lines.
+                </li>
+                <li>
+                  Learn to communicate authentically, respectfully and focused
+                  on advancing and solving problems.
+                </li>
+                <li>Improve ego management.</li>
+                <li>Overcome the 5 dysfunctions of a team.</li>
+                <li>Have a good time.</li>
+              </ul>
+            </li>
+          </ul>
+          <h3 class="title is-size-6">Referral to be provided</h3>
+          <!-- <hr /> -->
+          <!--           <div class="media">
+            <div class="media-left">
+              <figure class="image is-128x128">
+                <g-image
+                  class="is-rounded"
+                  src="../../../uploads/Jimmy.png"
+                ></g-image>
+              </figure>
+            </div>
+
+            <div class="media-content">
+              <div>
+                <p>
+                  Ayant collaboré et travaillé avec Nancy à plusieurs occasions
+                  dans le passé, je n’avais aucun doute que notre expérience
+                  serait gagnante, et ce fût au-delà de mes attentes et celles
+                  de mon équipe.
+                </p>
+                <p>
+                  Lors d’une activité récente de retraite et team building avec
+                  mon équipe de gestionnaires, nous étions en quête d’une
+                  expérience qui nous permettrait à la fois de nous recentrer
+                  afin de travailler plus efficacement, mais aussi une occasion
+                  pour prendre soins de nous tous, l’humain, derrière chaque
+                  gestionnaire, ce qui ne se fait malheureusement pas assez
+                  souvent en entreprise.
+                </p>
+                <p>
+                  C’est une activité très hors du commun, qui demande de
+                  l’audace et qui sort du cadre ‘’normal’’ de formation/cadre de
+                  gestion courante, mais je vous le dis, c’est le meilleur
+                  investissement que vous pouvez faire, prêtez-vous au jeu et à
+                  l’expérience.
+                </p>
+                <p>
+                  Nancy a définitivement fait de nous une équipe renouvelée,
+                  soudée plus que jamais, ce qui a contribué a augmenté
+                  significativement l’efficacité globale de l’équipe. Le mix
+                  entre l’approche plus conventionnelle de fonctionnement d’une
+                  équipe (Lancioni, les 5 dysfonctions d’une équipe) enseigné,
+                  et les techniques de cohérence appliquées et maîtrisées par
+                  Nancy ont résulté en un cocktail gagnant. Le changement est
+                  radical, et les résultats sont tangibles!
+                </p>
+                <p>
+                  Merci Nancy, ce fût une de mes meilleures expériences
+                  professionnelles jusqu’à maintenant, et je tiens à dire qu’en
+                  tant que dirigeant d’entreprise, c’est quelque chose que nous
+                  devrions tous prendre le temps de faire, plus souvent! Osez!
+                </p>
+              </div>
+              <h2 class="title is-size-6 is-family-primary">
+                Jimmy Chabot
+                <span>, Kerry</span>
+              </h2>
+            </div>
+          </div> -->
+          <g-image
+            src="../../../uploads/ENG-seulement-42-pourcent.png"
+            style="padding-top: 2em"
+          />
+        </div>
+      </div>
+
+      <div class="section has-background-info">
+        <div class="container">
+          <p>
+            Additional wellbeing, personal growth, leadership and management
+            topic can be added. The subjects often selected are:
+          </p>
+          <VueSlickCarousel
+            :dots="false"
+            :arrows="true"
+            :autoplay="true"
+            :autoplaySpeed="4000"
+            :speed="2000"
+            :infinite="true"
+            :slidesToShow="3"
+            :slidesToScroll="3"
+          >
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/thoughts.png" />
+                </figure>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/emotions.png" />
+                </figure>
+              </div>
+            </div> -->
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/stress-icon.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Food.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Exercise.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/sleep.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Environment.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Relationship.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Resilience-ENG.png" />
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure>
+                  <g-image src="../../../uploads/Energy.png" />
+                </figure>
+              </div>
+            </div>
+          </VueSlickCarousel>
+        </div>
+      </div>
+
+      <div
+        class="parallax-effect hero is-medium is-dark"
+        style="background-image: url('/img/grand-maitre.png'); "
+      >
+        <!-- <div class="hero-body">
+          <h2 class="has-text-centered title">Repas inclus</h2>
+        </div> -->
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <p>
+            Offer the teaching of great masters, and sages wrapped in business
+            context. Empower your employees to learn attitudes and behaviors
+            that are beneficial for them, their families, their employees and
+            their colleagues. All the principles and tools can also be
+            accompanied by the most up-to-date data in terms of studies and
+            scientific research available.
+          </p>
+        </div>
+      </div>
+
+      <div class="section has-background-info">
+        <div class="container">
+          <p>
+            For more information on other available topics, you can consult
+          </p>
+          <div class="columns">
+            <div class="column">
+              <g-link to="/en/training">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image src="../../../uploads/corporate-training.png" />
+                    </figure>
+                  </div>
+                </div>
+              </g-link>
+            </div>
+            <div class="column">
+              <g-link to="/en/conferences">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image
+                        src="../../../uploads/corporate-conference.png"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </g-link>
+            </div>
+            <div class="column">
+              <a href="https://coaching.nancybilodeau.com/en/training">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <g-image
+                        src="../../../uploads/ENG-formations-individu.png"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <h2 class="title is-size-6">
+            Show them your appreciation and give them a unique experience that
+            will help them in all areas of their life.
+          </h2>
+
+          <a class="button" href="/en/contact" target="_self"
+            >Contact me to learn more!</a
+          >
+        </div>
+      </div>
+    </div>
+  </English-Layout>
+</template>
+
+<script>
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
+export default {
+  metaInfo: {
+    title: "Retreat",
+    htmlAttrs: {
+      lang: "en",
+    },
+  },
+  components: { VueSlickCarousel },
+};
+</script>
+
+<style scoped lang="scss">
+.top {
+  &::before {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+.parallax-effect {
+  position: relative;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+.title {
+  color: #004369;
+  position: relative;
+}
+.slick-slider {
+  .card {
+    box-shadow: none;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #363636;
+}
+</style>

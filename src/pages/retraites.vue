@@ -2,7 +2,7 @@
   <Layout>
     <div style="margin-top:-3rem">
       <div
-        class="parallax-effect hero is-medium is-dark"
+        class="parallax-effect top hero is-medium is-dark"
         style="background-image: url('/img/Retraite.png'); "
       >
         <div class="hero-body">
@@ -46,7 +46,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('/img/duree.png'); "
+        style="background-image: url('/img/duree2.png'); "
       >
         <div class="hero-body has-text-centered">
           <h2 class=" title is-family-primary is-size-2 ">
@@ -426,6 +426,7 @@
               </h2>
             </div>
           </div>
+          <hr />
           <g-image
             src="../../uploads/seulement-42-pourcent.png"
             style="padding-top: 2em"
@@ -528,9 +529,12 @@
         class="parallax-effect hero is-medium is-dark"
         style="background-image: url('/img/grand-maitre.png'); "
       >
-        <!-- <div class="hero-body">
-          <h2 class="has-text-centered title">Repas inclus</h2>
-        </div> -->
+        <div class="hero-body has-text-centered ">
+          <h2 class="title is-family-primary is-size-2">
+            Ralentir et trouver l'équilibre
+          </h2>
+          <h3 class="title">Pour avancer plus vite</h3>
+        </div>
       </div>
 
       <div class="section">
@@ -618,6 +622,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.top {
+  &::before {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
 .parallax-effect {
   position: relative;
   min-height: 600px;
@@ -632,9 +641,9 @@ export default {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(255, 255, 255, 0.25);
   }
 }
+
 .title {
   color: #004369;
   position: relative;
@@ -644,8 +653,16 @@ export default {
     box-shadow: none;
   }
 }
-.slick-prev:before,
-.slick-next:before {
-  color: #363636;
+.slick-prev,
+.slick-next {
+  &::before {
+    color: #363636;
+  }
+}
+.slick-prev {
+  left: -60px;
+}
+.slick-next {
+  right: -60px;
 }
 </style>
