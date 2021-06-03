@@ -355,8 +355,8 @@
             </li>
           </ul>
           <h3 class="title is-size-6">Referral to be provided</h3>
-          <!-- <hr /> -->
-          <!--           <div class="media">
+          <hr />
+          <div class="media">
             <div class="media-left">
               <figure class="image is-128x128">
                 <g-image
@@ -369,42 +369,39 @@
             <div class="media-content">
               <div>
                 <p>
-                  Ayant collaboré et travaillé avec Nancy à plusieurs occasions
-                  dans le passé, je n’avais aucun doute que notre expérience
-                  serait gagnante, et ce fût au-delà de mes attentes et celles
-                  de mon équipe.
+                  Having collaborated and worked with Nancy on several occasions
+                  in the past, I had no doubt that our experience would be a
+                  winning one. It was beyond my expectations and those of my
+                  team.
                 </p>
                 <p>
-                  Lors d’une activité récente de retraite et team building avec
-                  mon équipe de gestionnaires, nous étions en quête d’une
-                  expérience qui nous permettrait à la fois de nous recentrer
-                  afin de travailler plus efficacement, mais aussi une occasion
-                  pour prendre soins de nous tous, l’humain, derrière chaque
-                  gestionnaire, ce qui ne se fait malheureusement pas assez
-                  souvent en entreprise.
+                  During a recent retreat and team building activity with my
+                  team of managers, we were looking for an experience that would
+                  allow us both to refocus in order to work more efficiently,
+                  but also an opportunity to take care of us, the human
+                  individual being behind each manager, which unfortunately is
+                  not done often enough in companies.
                 </p>
                 <p>
-                  C’est une activité très hors du commun, qui demande de
-                  l’audace et qui sort du cadre ‘’normal’’ de formation/cadre de
-                  gestion courante, mais je vous le dis, c’est le meilleur
-                  investissement que vous pouvez faire, prêtez-vous au jeu et à
-                  l’expérience.
+                  It is a very unusual activity, which requires daring and which
+                  goes beyond the `` normal '' framework of training / current
+                  management framework, but I tell you, it is the best
+                  investment you can make.
                 </p>
                 <p>
-                  Nancy a définitivement fait de nous une équipe renouvelée,
-                  soudée plus que jamais, ce qui a contribué a augmenté
-                  significativement l’efficacité globale de l’équipe. Le mix
-                  entre l’approche plus conventionnelle de fonctionnement d’une
-                  équipe (Lancioni, les 5 dysfonctions d’une équipe) enseigné,
-                  et les techniques de cohérence appliquées et maîtrisées par
-                  Nancy ont résulté en un cocktail gagnant. Le changement est
-                  radical, et les résultats sont tangibles!
+                  Nancy has definitely made us a renewed team, more united than
+                  ever, which has significantly increased the overall
+                  effectiveness of the team. The mix between the more
+                  conventional approach to team functioning (Lancioni, the 5
+                  dysfunctions of a team) taught, and the heart coherence
+                  teaching applied and mastered by Nancy resulted in a winning
+                  cocktail. The change is radical, and the results are tangible!
                 </p>
                 <p>
-                  Merci Nancy, ce fût une de mes meilleures expériences
-                  professionnelles jusqu’à maintenant, et je tiens à dire qu’en
-                  tant que dirigeant d’entreprise, c’est quelque chose que nous
-                  devrions tous prendre le temps de faire, plus souvent! Osez!
+                  Thank you Nancy, it has been one of my best professional
+                  experiences so far, and I want to say that as a business
+                  leader, this is something we should all take the time to do,
+                  more often! Dare!
                 </p>
               </div>
               <h2 class="title is-size-6 is-family-primary">
@@ -412,7 +409,7 @@
                 <span>, Kerry</span>
               </h2>
             </div>
-          </div> -->
+          </div>
           <g-image
             src="../../../uploads/ENG-seulement-42-pourcent.png"
             style="padding-top: 2em"
