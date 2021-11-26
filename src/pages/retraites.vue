@@ -3,12 +3,18 @@
     <div style="margin-top:-3rem">
       <div
         class="parallax-effect top hero is-medium is-dark"
-        style="background-image: url('/img/Retraite.png'); "
+        style="background-image: url('/img/Care-plus.png'); "
       >
-        <div class="hero-body">
+        <!-- <div class="hero-body">
           <h1 class="has-text-centered title is-family-primary is-size-2 ">
             Quand le ressourcement prend soin des affaires
           </h1>
+        </div>-->
+      </div> 
+
+      <div class="section">
+        <div class="container">
+          <g-image src="../../uploads/RETRAITE-Slogan2-RGB_bleu-fonc%C3%A9.jpg" quality="100" />
         </div>
       </div>
 
@@ -46,7 +52,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('/img/duree2.png'); "
+        style="background-image: url('/img/duree3.png'); "
       >
         <div class="hero-body has-text-centered">
           <h2 class=" title is-family-primary is-size-2 ">
@@ -58,6 +64,9 @@
 
       <div class="section">
         <div class="container">
+          <h1 class="has-text-centered title is-family-primary is-size-2 ">
+            Quand le ressourcement prend soin des affaires
+          </h1>
           <p>
             J’ai de nombreux outils tant du côté des affaires que du mieux-être.
             En déterminant vos objectifs, le nombre de participants et la durée
@@ -66,6 +75,10 @@
             de relaxer, de « recharger leurs batteries » et de déployer le
             meilleur d’eux-mêmes dans la résolution des points d’affaires à
             l’horaire.
+          </p>
+          <g-image src="../../uploads/RETRAITE-Logo-Long-RGB_bleu-moyen.png" />
+          <p>
+            La définition d’un phare dans le dictionnaire est la suivante :  Une tour élevée portant un puissant foyer de lumière pour guider les navires pendant la nuit. Depuis sa première création, il est vu comme un pilier et même un refuge. Au fils des années, le phare a été utilisé pour représenter notre capacité à rejoindre notre lumière intérieure et notre plein potentiel, afin d’éclairer les zones obscures de notre expérience. Il exprime aussi la lumière de ceux qui nous guident. Le phare est le symbole de la protection, de l’espoir, du calme après la tempête, et de la sécurité matérielle et psychologique. Il est également le symbole de nos forces d’ancrage dans la vie comme le sont nos valeurs premières, nos amours, nos amitiés et nos relations professionnelles. Dans le cadre du travail, le phare peut aussi représenter la lumière sur les besoins réels de l’entreprise pour l’aider à briller vers son plein potentiel, tout en demeurant bien enracinée sur ses valeurs, sa mission et sa vision.
           </p>
         </div>
       </div>
@@ -245,7 +258,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('/img/retraite-repas.png'); "
+        style="background-image: url('/img/retraite-repas3.png'); "
       >
         <div class="hero-body has-text-centered">
           <h2 class=" title is-family-primary is-size-2">
@@ -548,6 +561,11 @@
             accompagnés des données les plus à jour en termes d’études et de
             recherches scientifiques disponibles.
           </p>
+          <g-image
+            src="../../uploads/RETRAITE-Slogan-RGB_bleu-moyen.jpg"
+            style="padding-top: 2em"
+            quality="100"
+          />
         </div>
       </div>
 
@@ -629,7 +647,7 @@ export default {
 }
 .parallax-effect {
   position: relative;
-  min-height: 600px;
+  min-height: 850px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
