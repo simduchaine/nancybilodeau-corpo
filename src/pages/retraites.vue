@@ -64,7 +64,7 @@
 
       <div class="section">
         <div class="container">
-          <h1 class="has-text-centered title is-family-primary is-size-2 ">
+          <h1 class="title is-size-6 ">
             Quand le ressourcement prend soin des affaires
           </h1>
           <p>
@@ -76,9 +76,9 @@
             meilleur d’eux-mêmes dans la résolution des points d’affaires à
             l’horaire.
           </p>
-          <g-image src="../../uploads/RETRAITE-Logo-Long-RGB_bleu-moyen.png" />
+          <g-image src="../../uploads/RETRAITE-Logo-Long-RGB_bleu-moyen.png" width="800" class="center" />
           <p>
-            La définition d’un phare dans le dictionnaire est la suivante :  Une tour élevée portant un puissant foyer de lumière pour guider les navires pendant la nuit. Depuis sa première création, il est vu comme un pilier et même un refuge. Au fils des années, le phare a été utilisé pour représenter notre capacité à rejoindre notre lumière intérieure et notre plein potentiel, afin d’éclairer les zones obscures de notre expérience. Il exprime aussi la lumière de ceux qui nous guident. Le phare est le symbole de la protection, de l’espoir, du calme après la tempête, et de la sécurité matérielle et psychologique. Il est également le symbole de nos forces d’ancrage dans la vie comme le sont nos valeurs premières, nos amours, nos amitiés et nos relations professionnelles. Dans le cadre du travail, le phare peut aussi représenter la lumière sur les besoins réels de l’entreprise pour l’aider à briller vers son plein potentiel, tout en demeurant bien enracinée sur ses valeurs, sa mission et sa vision.
+            La définition d’un phare dans le dictionnaire est la suivante :  <i>Une tour élevée portant un puissant foyer de lumière pour guider les navires pendant la nuit. </i>Depuis sa première création, il est vu comme un pilier et même un refuge. Au fils des années, le phare a été utilisé pour représenter notre capacité à rejoindre notre lumière intérieure et notre plein potentiel, afin d’éclairer les zones obscures de notre expérience. Il exprime aussi la lumière de ceux qui nous guident. Le phare est le symbole de la protection, de l’espoir, du calme après la tempête, et de la sécurité matérielle et psychologique. Il est également le symbole de nos forces d’ancrage dans la vie comme le sont nos valeurs premières, nos amours, nos amitiés et nos relations professionnelles. Dans le cadre du travail, le phare peut aussi représenter la lumière sur les besoins réels de l’entreprise pour l’aider à briller vers son plein potentiel, tout en demeurant bien enracinée sur ses valeurs, sa mission et sa vision.
           </p>
         </div>
       </div>
@@ -682,5 +682,12 @@ export default {
 }
 .slick-next {
   right: -60px;
+}
+
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 </style>
