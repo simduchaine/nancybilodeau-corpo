@@ -3,12 +3,18 @@
     <div style="margin-top:-3rem">
       <div
         class="parallax-effect top hero is-medium is-dark"
-        style="background-image: url('/img/Retraite.png'); "
+        style="background-image: url('/img/Care_Engl.png'); "
       >
-        <div class="hero-body">
+        <!-- <div class="hero-body">
           <h1 class="has-text-centered title is-family-primary is-size-2 ">
             When caring takes care of Business!
           </h1>
+        </div> -->
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <g-image src="../../../uploads/RETREAT-Slogan-RGB-ANG-2_bleu.jpg" quality="100" />
         </div>
       </div>
 
@@ -47,7 +53,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('/img/duree.png'); "
+        style="background-image: url('/img/duree3.png'); "
       >
         <div class="hero-body has-text-centered">
           <h2 class=" title is-family-primary is-size-2 ">
@@ -59,6 +65,9 @@
 
       <div class="section">
         <div class="container">
+          <h1 class="title is-size-6 ">
+            When the healing takes care of business
+          </h1>
           <p>
             I have multiple tools for both business & wellness. You can provide
             me with your objectives, the number of participants, the desired
@@ -66,6 +75,10 @@
             experience that will allow your leaders to relax, recharge, reset,
             reboot and to deploy the best of themselves in solving the business
             subjects at hand.
+          </p>
+          <g-image src="../../../uploads/RETRAITE-Logo-Long-RGB_bleu-moyen.png" width="800" class="center" />
+          <p>
+          The dictionary definition of a lighthouse is: A tall structure topped by a powerful light used as a beacon or signal to aid nautical navigation. Since its creation, it has been seen as a pillar and even a refuge. Over the years, the lighthouse has been used to represent our ability to reach our inner light and our full potential, to illuminate the dark areas of our experience. It also expresses the light of those who guide us. The lighthouse is the symbol of protection, hope, calm after the storm, and material and psychological security. It is also the symbol of our anchoring points such as are our values, our families, our friendships, and our professional relationships. In the workplace, the lighthouse can also represent the light we need to shed on the solutions needed to help it shine to its full potential, while remaining firmly rooted in its values, mission, and vision.
           </p>
         </div>
       </div>
@@ -238,7 +251,7 @@
 
       <div
         class="parallax-effect hero is-medium is-dark"
-        style="background-image: url('/img/retraite-repas.png'); "
+        style="background-image: url('/img/retraite-repas3.png'); "
       >
         <div class="hero-body has-text-centered">
           <h2 class=" title is-family-primary is-size-2">
@@ -526,6 +539,11 @@
             accompanied by the most up-to-date data in terms of studies and
             scientific research available.
           </p>
+          <g-image
+            src="../../../uploads/RETREAT-Slogan-RGB-ANG_bleu-moyen.jpg"
+            style="padding-top: 2em"
+            quality="100"
+          />
         </div>
       </div>
 
@@ -612,7 +630,7 @@ export default {
 }
 .parallax-effect {
   position: relative;
-  min-height: 600px;
+  min-height: 850px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
