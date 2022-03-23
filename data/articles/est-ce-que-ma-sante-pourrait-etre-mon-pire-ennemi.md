@@ -1,7 +1,7 @@
 ---
 title: Est-ce que ma santé pourrait être mon pire ennemi?
 id: ''
-thumbnail: "/uploads/export_06311.jpeg"
+thumbnail: "/uploads/article-les-affaires.png"
 link: https://www.lesaffaires.com/blogues/nancy-bilodeau/est-ce-que-ma-sante-pourrait-etre-mon-pire-ennemi/630997
 order: 1
 sticky: true

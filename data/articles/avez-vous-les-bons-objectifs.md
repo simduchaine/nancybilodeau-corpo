@@ -1,7 +1,7 @@
 ---
 title: Avez vous les bons objectifs
 id: ''
-thumbnail: "/uploads/bd9a1c4f32595d96d1dfd6bb6d2c77ac.jpg"
+thumbnail: "/uploads/copie-de-article-les-affaires.png"
 link: https://www.lesaffaires.com/blogues/nancy-bilodeau/avez-vous-les-bons-objectifs/631688
 order: 2
 sticky: true
